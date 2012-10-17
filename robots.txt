@@ -1,0 +1,2 @@
+User-agent: *Disallow:
+Sitemap: http://www.newlifeoffice.com/sitemap.xml

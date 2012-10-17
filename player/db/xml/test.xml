@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<videos>
+    <video url="../../db/flv/test.flv" image="../../db/img/test.jpg" link="../../en::demo">test</video>
+</videos>

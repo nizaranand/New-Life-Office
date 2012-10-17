@@ -1,0 +1,852 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+list-style-type:none;
+text-decoration: none;
+
+
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+text-decoration: none;
+}
+del {
+text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* End of Reset*/
+
+/* Begin Typography & Colors */
+body {
+
+margin: 0;
+padding: 0;
+background: url(images/underbodybg.jpg) repeat-x;
+background-color: #f0f0f0;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+#wholecontent
+{
+
+}	
+
+#page {
+margin: 10px auto;
+padding: 0;
+width: 875px;
+height:auto;
+}
+
+#header {
+margin:0 auto;
+height: 245px;
+width: 875px;	
+background: #FFF;
+-moz-box-shadow: 0px 5px 5px #000000;
+-webkit-box-shadow: 0px 5px 5px #000000;
+box-shadow: 0px 5px 5px #000000;
+border:thin #000;
+}
+
+#headerimg 	{
+margin:10px;
+height:106px;
+width:45%;
+float:left;
+}
+
+#rightimg {
+padding-top:10px;
+float: left;
+width: 45%;
+height:250px;	
+}
+
+#rightimg object {
+padding-left:100px;
+}
+
+#headtext {
+clear:both;
+padding-left:10px;
+padding-top:25px;
+}
+
+#headtext h1 h2{
+color:#000;
+font-size:1.50em;
+text-align: justify;
+text-decoration:none;
+
+}
+
+/*.................Landing Body....................*/
+
+#landingbody {
+height:auto;
+background:#FFF;
+-moz-box-shadow: 0px 5px 5px #000000;
+-webkit-box-shadow: 0px 5px 5px #000000;
+box-shadow: 0px 5px 5px #000000;
+border:thin #000;
+
+}
+
+#landingbody p {
+color:#000;
+font-size:0.9em;	
+}
+
+.landheader {
+
+color:#000;
+display:block;
+
+}
+
+.entry {
+height:auto;
+padding: 0px 10px 0px 5px;
+margin:0 auto;
+width:75%;
+float:left;
+}
+
+.entry_boise {
+height:auto;
+padding:0px;
+margin:0 auto;
+width:100%;
+float:left;
+}
+
+.content {
+height:auto;
+padding:0px 10px 0px 30px;
+line-height:25px;
+margin:0 auto;
+width:90%;
+float:left;
+
+}
+.entry h1 {
+color:#000;
+font-size:1.5em;
+}
+
+.entry img {
+margin:15px;
+padding:10px;
+
+}
+
+
+.entry p {
+font:Verdana, Geneva, sans-serif;
+text-align:justify;
+line-height:20px;
+font-size:1.2em;
+
+}
+
+/*Map*/
+
+#location {
+clear:both;
+padding: 25px; 
+height:375px;
+border-top:thin #FFF inset;
+}
+
+#location h1{
+color:#000;
+font-size:1.5em;
+}
+
+#map {
+float:left;	
+}
+
+#locphoto {
+float:left;	
+margin-left:25px;
+}
+
+/* menu */
+
+.menu{
+z-index:1;
+background:#e13a3e;
+margin:0px;
+font-family:Verdana, Geneva, sans-serif;
+display:inline;
+font-size:0.8em;
+color:#000;
+float:left;
+width:873px;
+border-bottom:1px solid #FFF;
+}
+.menu ul{
+background:#e13a3e;
+height:43px;
+list-style:none;
+margin:0;
+padding:0;
+
+}
+.menu li{
+float:left;
+}
+.menu li a{
+color:#000;
+display:block;
+line-height:43px;
+padding:0px 7px;
+text-align:center;
+text-decoration:none;
+font-family:Verdana, Geneva, sans-serif;
+border-left:1px solid #FFF;
+min-width:110px;
+-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+.menu li a:hover{
+color:#fff;
+text-decoration:none;
+-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+.menu li ul{
+background:#e13a3e;
+display:none;
+height:auto;
+filter:alpha(opacity=95);
+opacity:0.95;
+position:absolute;
+z-index:200;
+}
+.menu li:hover ul{
+display:block;
+border:1px solid #FFF;
+-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+.menu li li {
+display:block;
+float:none;
+max-width:700px;
+min-width:150px;
+}
+.menu li ul a{
+display:block;
+font-size:1em;
+font-style:normal;
+border-bottom:1px solid #FFF;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+.menu li ul a:hover{
+color:#fff;
+opacity:1.0;
+-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+.menu p{
+clear:left;
+}	
+
+
+
+
+
+/*............leftSideBar..................*/
+
+.sibebarRight {
+float:right;
+height:auto !important;
+margin-top:25px;
+width:20%;
+}
+
+#videoBar {
+clear:both;
+width: 130px;
+margin-right: 5px;
+margin-left: 5px;
+padding-top : 4px;
+padding-right : 4px;
+padding-left : 4px;
+padding-bottom : 0px;
+z-index: 999999999 !important;
+}
+
+
+
+
+/*.................footer....................*/
+
+
+#iconlink, #newsletterlink
+{
+clear:both;
+width:875px;
+height:153px;
+padding:0;
+margin:0;
+font-size: 0.5em;
+font-family: Verdana, Geneva, sans-serif;
+color: #333;
+text-align: center;
+}
+
+#iconlink ul
+{
+padding:0;
+margin:20px 0 0 10px;
+list-style-image:none;
+list-style-type:none;
+}
+
+#iconlink ul#icon
+{
+margin:20px 0 0 10px;
+}
+
+#iconlink ul#icon li
+{
+margin:0 40px 0 10px;
+padding:0;
+}
+
+#iconlink ul.link
+{
+text-align:center;
+margin:20px 0 0 195px;
+padding:0;
+}
+
+#iconlink ul.link li
+{
+margin:0;
+width:127px;
+text-align:center;
+padding:0;
+float:left;
+}
+
+#iconlink ul li
+{
+display:inline;
+}
+
+#newsletterlink ul{
+padding: 5px;
+}
+
+#newsletterlink ul li{
+display: inline-block;
+padding: 8px;
+margin: 10px 0 0 20px;
+}
+
+#newsletterlink ul li.newslet{
+width: 300px;
+float: left;
+}
+#newsletterlink ul li.mediasect{
+margin: 11px 100px 0 102px;
+width: 300px;
+float: right;
+}
+
+#footer {
+height:auto;
+width: 875px;
+
+}
+
+
+
+#footerlink
+{
+width:100%;
+height:200px;
+padding:0;
+margin:0;
+float:left;
+
+}
+
+#footerlink .link
+{
+padding:0;
+margin:0 auto;
+width:875px;
+background:#333;
+
+}
+
+#footerlink .link p
+{
+padding:0;
+margin:0;
+text-align:center;
+color:#cccccc;
+padding:5px 0 0 0;
+}
+
+#footerlink .link a
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:1em;
+color:#cccccc;
+}
+
+#bottomIcon
+{
+width:875px;
+height:100px;
+padding:0;
+margin:22px auto 0 auto;
+background:#OOO;
+}
+#bottomIcon ul
+{
+padding:0;
+margin:0;
+list-style-image:none;
+list-style-type:none;
+}
+
+#bottomIcon ul li
+{
+display:inline;
+}
+
+/*............banner...............*/
+
+.imgs {
+width:290px;
+float:left;
+margin:25px 20px 0px 25px;
+}
+
+.imgsb {
+width:290px;
+float:left;
+
+margin-top: 15px;
+margin-left:182px;
+}
+
+#banner {
+width:100%;
+
+}
+
+.img_used {
+float:left;
+border-bottom:#000 thin solid;
+padding-left:45px;
+padding-top:20px;
+}
+
+.img_used_div{
+clear:both;
+
+}
+
+#used_dis {
+float:left;
+text-align:right;
+vertical-align:text-top;
+
+}
+
+.imgs_boise {
+width:100%;
+float:left;
+margin:0px 0px 0px 100px;
+}
+
+#lasVegasProduct {
+text-align:left;
+border-bottom:thin inset #000;
+font-size:0.8em;
+float:right;
+display:block;
+width:175px;
+}
+
+
+.emailreqtxt {
+display:none;
+color:#FFF;
+}
+
+.imgLeft {
+float:left;
+min-height: 200px;
+}
+
+.textRight {
+float:left;
+text-align:left;
+display:block;
+width:300px;
+}
+
+.textRight h2 {
+white-space:normal;
+}
+
+#used_dis {
+width:600px;
+
+}
+
+#used_dis p {
+font-family: Arial,Helvetica,sans-serif;
+font-size: .8em;
+line-height: 15px;
+
+
+}
+#used_dis h1 {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 1.2em;
+line-height: 23px;
+
+}
+
+#youtube {
+font-family: Arial,Helvetica,sans-serif;
+  color: #FF0000; 
+font-weight:bold;
+float:right;
+width: 200px;
+padding-right: 5px;
+z-index: 999999999;
+
+}
+
+#youtube span
+{
+color:#FFF;
+font-size:.9em;
+background:#666;
+display:block;
+padding:10px;
+}
+
+.vegas_gallery_productimg {
+float: left;
+}
+
+.vegas_gallery_entry {
+float: left;
+text-wrap: normal;
+width: 320px;
+padding-top: 25px;
+}
+
+.product_vegas {
+clear: both;
+
+}
+
+.vegas_gallery_title {
+color: #000000 !important;
+text-decoration: underline;
+padding-bottom: 5px;
+}
+
+#homestation_vegas {
+}
+
+.bottom_border {
+border-bottom: 3px double #000000;
+clear: both;
+}
+
+.vegas_gallery_text {
+font-size: 0.8em;
+padding-top: 15px;
+}
+
+/* Here lies the code for the cubicles. */
+
+#color li {
+display: inline;
+color: #ff0000;
+}
+
+#Feature_x_b {
+
+width:845px;
+height:350px;
+float:left;
+padding:0 0 0 30px;
+margin:23px 0 63px 0;
+}
+
+#cubicles {
+background: none repeat scroll 0 0 #FFFFFF;
+border: thin none #000000;
+padding: 5px 25px 0 25px;
+clear: both;
+}
+
+#cubicles h1 {
+padding: 20px;
+}
+
+
+	
+
+
+
+
+.title_red {
+color: #E13A3E !important;
+font-size: 1.5em !important;
+}
+
+#maximumPrivacy {
+height: 300px;
+border: 2px solid #000000;
+padding-bottom: 60px;
+}
+
+#maximumPrivacy img {
+margin: 0px !important;
+padding: 0px !important;
+max-height: 175px;
+}
+
+#openLayout {
+clear: both;
+height: 350px;
+border: 2px solid #000000;
+}
+
+#openLayout img {
+margin: 0px !important;
+padding: 0px !important;
+max-height: 175px;
+}
+
+#fourCall img {
+margin: 0px !important;
+padding: 0px !important;
+clear: both;
+}
+
+#fourCall {
+height: 300px;
+border: 2px solid #000000;
+padding-bottom: 60px;
+}
+
+#fourCall li {
+position: relative;
+left: 335px;
+}
+
+#group li{
+display: inline;
+float: left;
+}
+
+#single li {
+display: inline;
+float: left;
+}
+
+#benefits {
+list-style: bullet;
+clear: both;
+line-height: 35px;
+}
+
+#cf_img {
+float: left;
+}
+
+#cf_img img {
+width: 300px;
+}
+
+#cf_text {
+float: right;
+width: 275px;
+margin: 25px 25px 25px 0;
+}
+
+#cf_text li {
+height: 45px;
+padding: 5px;
+font-size: 0.9em;
+} 
+
+#cf_text h4 {
+width: 170px;
+}
+
+#small_boarder {
+border-top-right-radius: 5px 5px;
+border-bottom-right-radius: 5px 5px;
+border-bottom-left-radius: 5px 5px;
+}
+
+#color {
+width: 600px;
+height: 85px;
+padding: 0;
+margin: 8px 0 0 0;
+float: left;
+}
+
+#price {
+float: left;
+margin: 0 10px 0 0;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #ff0006;
+font-size: 12px;
+}
+
+#color ul li {
+float: left;
+margin: 0 5px 0 0;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+color: #ff0006;
+font-size: 12px;
+width: 40px;
+}
+#color ul img {
+float: right;
+}
+
+#color ul span {
+clear: both;
+padding-left: 6px;
+}
+#color ul {
+
+padding: 0;
+margin: 0 0 5px 0;
+list-style-image: none;
+list-style-type: none;
+float: left;
+}
+
+#color img {
+padding: 0px !important;
+margin: 5px !important;
+float: right;
+width: 40px;
+padding: 5px;
+margin: 5px;
+position: relative;
+left: 10px;
+}
+
+#plan_image {
+float: left;
+padding: 0;
+margin: 0 0 0 0;
+width: 273px;
+}
+
+#desc_text {
+padding:10px;
+}
+
+#move_left {
+display: block;
+position: relative;
+right:50px;
+width: 254px;
+height: 137px;
+background: url('http://www.newlifeoffice.com/wp-content/themes/NewLifeOffice/images/2D_Layout/4call/open/4x4-open-r-4.jpg') no-repeat;
+text-indent: -99999px;
+}
+
+#move_left:hover {
+background-position: 0 0;
+background: url('http://www.newlifeoffice.com/wp-content/themes/NewLifeOffice/images/3D_Layout/4call/4x4-open-r-4-o.jpg') no-repeat;
+}
+
+#top_left {
+display: block;
+position: relative;
+right:30px;
+width: 254px;
+height: 206px;
+background: url('http://www.newlifeoffice.com/wp-content/themes/NewLifeOffice/images/2D_Layout/4call/open/4call-open-8.jpg') no-repeat;
+text-indent: -99999px;
+}
+
+#top_left:hover {
+background-position: 0 0;
+background: url('http://www.newlifeoffice.com/wp-content/themes/NewLifeOffice/images/3D_Layout/4call/4call-open-8-o.jpg') no-repeat;
+}

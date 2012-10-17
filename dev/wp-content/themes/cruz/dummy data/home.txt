@@ -1,0 +1,82 @@
+[full]
+<h3>A blend of clean, modern and minimalist design style, exclusively crafted for modern business requirements and corporate web sites.</h3>
+[/full]
+
+[hr]
+
+[one_third]
+<h4><strong>Flexible Layout Option</strong></h4>
+Cruz comes with flexible layout options. You can have a boxed layout or a stretched layout.
+
+[tabs]
+[tab title="Tabbed"]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum.
+[/tab]
+[tab title="Content"]
+Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo. Aenean sodales, augue venenatis posuere fermentum, tellus velit vestibulum.
+[/tab]
+[tab title="Example"]
+Praesent in dolor eu orci malesuada viverra vitae vel purus. Sed sit amet dui nisl. Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet ornare mauris.
+[/tab]
+[/tabs]
+
+[btn link="#"]More on layout &rarr;[/btn]
+[/one_third]
+
+[one_third]
+<h4><strong>Authentic Features</strong></h4>
+The theme comes with genuine features that are essential for almost any corporate website.
+
+<ul class="list list1">
+	<li>Typography styles &amp; elements</li>
+	<li>Layout Columns and grids</li>
+	<li>Tabs, accordions and toggles</li>
+	<li>Product Tour and FAQ features</li>
+	<li>Boxes, lists and CSS3 Buttons</li>
+</ul>
+
+[btn link="#"]Features &rarr;[/btn]
+[/one_third]
+
+[one_third_last]
+<h4><strong>Improved User Experience</strong></h4>
+Short codes are very useful in managing the site content. With Cruz, you will find it easy to insert short codes with the click of mouse.
+
+<img src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/ux2.png" alt="Visual Short Codes" />
+
+[btn link="#"]Short Codes &rarr;[/btn]
+[/one_third_last]
+
+[hr]
+
+[one_fourth]
+[frame src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/11.jpg" width="204" height="160" style="foldify" linkstyle="pp" title="Theme options"]
+<h5>Sturdy <strong>Theme Options</strong></h5>
+Control the appearance of layout, colors, fonts and features with useful theme options.
+
+[btn link="#"]Theme Options &rarr;[/btn]
+[/one_fourth]
+
+[one_fourth]
+[frame src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/5.jpg" width="204" height="160" style="foldify" linkstyle="pp" title="Visual short codes"]
+<h5>Visual <strong>Short Codes</strong></h5>
+Insert short code with easy clicks. You can control various parameters via option panel on short codes.
+
+[btn link="#"]Short Codes &rarr;[/btn]
+[/one_fourth]
+
+[one_fourth]
+[frame src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/3.jpg" width="204" height="160" style="foldify" linkstyle="pp" title="Custom widgets"]
+<h5>Custom <strong>Widgets</strong></h5>
+Manage and display your site content in a better way using these useful widgets.
+
+[btn link="#"]Custom Widgets &rarr;[/btn]
+[/one_fourth]
+
+[one_fourth_last]
+[frame src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/1.jpg" width="204" height="160" style="foldify" linkstyle="pp" title="Style elements"]
+<h5>Useful <strong>Style Elements</strong></h5>
+Tiny basic things like tabs, accordion, buttons, pricing grids, tour, FAQ, boxes, lists, and much more.
+
+[btn link="#"]Check Styles &rarr;[/btn]
+[/one_fourth_last]

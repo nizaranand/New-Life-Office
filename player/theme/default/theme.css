@@ -1,0 +1,116 @@
+/*--------------------------------------------------*/
+/*	DEFAULT											*/
+/*--------------------------------------------------*/
+body {
+margin: 0;
+padding: 0;
+font-family: tahoma;
+font-size: 11px;
+background: #1d1d20 ;
+color: #666;
+overflow: -moz-scrollbars-vertical;
+}
+.clear {
+display: block;
+clear: both;
+}
+.hidden {
+display: none;
+}
+img {
+border: 0;
+}
+a {
+color: #333;
+text-decoration: none;
+}
+/*--------------------------------------------------*/
+/*	NAVIGATION										*/
+/*--------------------------------------------------*/
+#locus {
+margin: 0px auto;
+width: 960px;
+background: #fff;
+}
+#cox {
+border-bottom: solid 4px #f30;
+background: #fff;
+}
+#cox .logo {
+float: left;
+margin: 4px 0 -4px 0;
+}
+#deck {
+padding-top: 5px;
+border-top: solid 4px #3d3d40;
+}
+#flank {
+float: right;
+width: 300px;
+min-height: 380px;
+}
+#flank .advertisement {
+text-align: center;
+}
+#belly {
+float: left;
+margin-left: 5px;
+width: 650px;
+}
+#belly #guts {
+min-height: 430px;
+}
+#aft, #footnote a {
+font-size: 11px;
+color: #666;
+}
+#aft .icons {
+padding-right: 3px;
+text-align: right;
+background: #ffffff;
+}
+#aft #footer {
+padding: 5px 13px;
+background: #3D3D40;
+}
+#aft #footer .copyright {
+float: left;
+}
+#aft #footer .links {
+float: right;
+}
+#aft #footer .links a {
+padding: 3px;
+color: #888;
+}
+#aft #footer .links a:hover {
+color: #aaa;
+background: #2D2D30;
+}
+#aft #footnote {
+padding: 6px 13px;
+background: #2D2D30;
+}
+#aft a#developed {
+float: right;
+color: #555;
+}
+#aft a#developed:hover {
+color: #777;
+}
+
+#subBanner {
+margin: 5px 0;
+padding: 5px;
+height: 90px;
+text-align: center;
+background: #ddd;
+}
+
+textarea {
+margin: 5px 0;
+padding: 5px;
+width: 640px;
+height: 150px;
+border: 1px solid #888;
+}

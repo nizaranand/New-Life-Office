@@ -1,0 +1,1 @@
+<?php teardrop_template_switcher(get_option("teardrop_theme_template_blog"))?>

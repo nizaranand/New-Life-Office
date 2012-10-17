@@ -1,0 +1,848 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-06 15:47+0200\n"
+"PO-Revision-Date: 2011-09-06 15:47+0200\n"
+"Last-Translator: kotofey <ko100fey@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:3
+msgid "No comments"
+msgstr ""
+
+#: comments.php:5
+msgid "Submit comment"
+msgstr ""
+
+#: functions-pagenav.php:12
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: functions-pagenav.php:15
+#: functions-pagenav.php:18
+msgid "&laquo;"
+msgstr ""
+
+#: functions-pagenav.php:16
+#: functions-pagenav.php:17
+msgid "&raquo;"
+msgstr ""
+
+#: functions-pagenav.php:19
+#: functions-pagenav.php:20
+msgid "..."
+msgstr ""
+
+#: functions.php:304
+msgid "Page"
+msgstr ""
+
+#: functions.php:323
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: admin/main.php:18
+msgid "Teardrop Options"
+msgstr ""
+
+#: admin/options.php:84
+msgid "Theme Options"
+msgstr ""
+
+#: admin/options.php:87
+msgid "General"
+msgstr ""
+
+#: admin/options.php:88
+#: admin/options.php:89
+msgid "Site Logo"
+msgstr ""
+
+#: admin/options.php:91
+msgid "Upload a custom logo (JPG, PNG, GIF) for your Website"
+msgstr ""
+
+#: admin/options.php:95
+#: admin/options.php:96
+msgid "Admin Logo"
+msgstr ""
+
+#: admin/options.php:98
+msgid "Upload a custom logo (JPG, PNG, GIF) for your Wordpress login screen"
+msgstr ""
+
+#: admin/options.php:102
+#: admin/options.php:103
+msgid "Site Favicon"
+msgstr ""
+
+#: admin/options.php:105
+msgid "Upload a 16x16px image (ICO, JPG, PNG, GIF) that will your website's favicon"
+msgstr ""
+
+#: admin/options.php:109
+msgid "Read More Options"
+msgstr ""
+
+#: admin/options.php:110
+#: admin/options.php:116
+msgid "Readmore Type"
+msgstr ""
+
+#: admin/options.php:113
+msgid "Button"
+msgstr ""
+
+#: admin/options.php:114
+msgid "Link"
+msgstr ""
+
+#: admin/options.php:119
+#: admin/options.php:121
+msgid "Readmore Text"
+msgstr ""
+
+#: admin/options.php:125
+msgid "Breadcrumb navigation"
+msgstr ""
+
+#: admin/options.php:126
+msgid "Show breadcrumb navigation"
+msgstr ""
+
+#: admin/options.php:128
+msgid "Uncheck to hide breadcrumb navigation"
+msgstr ""
+
+#: admin/options.php:132
+msgid "Feedback Form"
+msgstr ""
+
+#: admin/options.php:133
+msgid "Feedback Email"
+msgstr ""
+
+#: admin/options.php:135
+msgid "Enter your email for feedback messages"
+msgstr ""
+
+#: admin/options.php:138
+msgid "Feedback Message"
+msgstr ""
+
+#: admin/options.php:140
+msgid "Success feedback message"
+msgstr ""
+
+#: admin/options.php:144
+msgid "Tracking code"
+msgstr ""
+
+#: admin/options.php:145
+msgid "Footer Custom Code"
+msgstr ""
+
+#: admin/options.php:147
+msgid "Paste your Google Analytics or other tracking code here"
+msgstr ""
+
+#: admin/options.php:151
+msgid "Footer copyrights"
+msgstr ""
+
+#: admin/options.php:152
+msgid "Paste your copyrights text here"
+msgstr ""
+
+#: admin/options.php:154
+msgid "Paste your copyrights text here. You may use these HTML tags and attributes"
+msgstr ""
+
+#: admin/options.php:158
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/options.php:159
+#: admin/options.php:161
+msgid "Paste your custom css here"
+msgstr ""
+
+#: admin/options.php:169
+msgid "Portfolio"
+msgstr ""
+
+#: admin/options.php:170
+#: admin/options.php:171
+msgid "Default template for portfolio item"
+msgstr ""
+
+#: admin/options.php:173
+msgid "Select the default template for single post from the portfolio. Use drop-down list"
+msgstr ""
+
+#: admin/options.php:178
+msgid "Categories"
+msgstr ""
+
+#: admin/options.php:179
+#: admin/options.php:187
+msgid "Default columns in category"
+msgstr ""
+
+#: admin/options.php:191
+#: admin/options.php:192
+#: admin/options.php:243
+#: admin/options.php:244
+msgid "Items per page"
+msgstr ""
+
+#: admin/options.php:194
+msgid "Enter the number of displayed works on the one column template page"
+msgstr ""
+
+#: admin/options.php:202
+msgid "Blog"
+msgstr ""
+
+#: admin/options.php:203
+#: admin/options.php:204
+msgid "Default template for blog item"
+msgstr ""
+
+#: admin/options.php:206
+msgid "Select the default template for single post from the blog. Use drop-down list"
+msgstr ""
+
+#: admin/options.php:211
+msgid "Appearance"
+msgstr ""
+
+#: admin/options.php:212
+msgid "Show date"
+msgstr ""
+
+#: admin/options.php:214
+msgid "Uncheck to hide the date near the title"
+msgstr ""
+
+#: admin/options.php:217
+msgid "Show author"
+msgstr ""
+
+#: admin/options.php:219
+msgid "Uncheck to hide the author"
+msgstr ""
+
+#: admin/options.php:222
+msgid "Show comments count"
+msgstr ""
+
+#: admin/options.php:224
+msgid "Uncheck to hide the comments count"
+msgstr ""
+
+#: admin/options.php:227
+msgid "Show the category"
+msgstr ""
+
+#: admin/options.php:229
+msgid "Uncheck to hide the category"
+msgstr ""
+
+#: admin/options.php:232
+msgid "Show post meta on the single post page"
+msgstr ""
+
+#: admin/options.php:234
+msgid "Uncheck to hide the post meta on single post page"
+msgstr ""
+
+#: admin/options.php:237
+msgid "Show featured image on the single post page"
+msgstr ""
+
+#: admin/options.php:239
+msgid "Uncheck to hide featured image on single post page"
+msgstr ""
+
+#: admin/options.php:246
+msgid "Enter the number of displayed posts on the same page"
+msgstr ""
+
+#: admin/options.php:253
+msgid "Background"
+msgstr ""
+
+#: admin/options.php:254
+msgid "Source"
+msgstr ""
+
+#: admin/options.php:255
+msgid "Source images"
+msgstr ""
+
+#: admin/options.php:261
+msgid "Select source for background images"
+msgstr ""
+
+#: admin/options.php:265
+msgid "Flickr settings"
+msgstr ""
+
+#: admin/options.php:266
+msgid "Flickr user ID"
+msgstr ""
+
+#: admin/options.php:268
+msgid "Flickr user ID (<a href='http://idgettr.com/', target='_blank'>http://idgettr.com/</a>)"
+msgstr ""
+
+#: admin/options.php:271
+msgid "Flickr API Key"
+msgstr ""
+
+#: admin/options.php:273
+msgid "Flickr API key. Need to get your own (<a href='http://www.flickr.com/services/apps/create/', target='_blank'>http://www.flickr.com/services/apps/create/</a>)"
+msgstr ""
+
+#: admin/options.php:276
+msgid "Images count"
+msgstr ""
+
+#: admin/options.php:278
+msgid "How many pictures to pull (Between 1-500)"
+msgstr ""
+
+#: admin/options.php:281
+msgid "Images size"
+msgstr ""
+
+#: admin/options.php:290
+msgid "Flickr Image Size (<a href='http://www.flickr.com/services/api/misc.urls.html', target='_blank'>http://www.flickr.com/services/api/misc.urls.html</a>"
+msgstr ""
+
+#: admin/options.php:296
+msgid "Animation Effects"
+msgstr ""
+
+#: admin/options.php:297
+#: admin/options.php:309
+msgid "Animation Effect"
+msgstr ""
+
+#: admin/options.php:312
+#: admin/options.php:314
+msgid "Transition Speed"
+msgstr ""
+
+#: admin/options.php:317
+#: admin/options.php:319
+msgid "Length between transitions"
+msgstr ""
+
+#: admin/options.php:323
+#: admin/options.php:324
+#: admin/options.php:332
+msgid "Slideshow performance"
+msgstr ""
+
+#: admin/options.php:336
+msgid "Other options"
+msgstr ""
+
+#: admin/options.php:337
+msgid "Start slide"
+msgstr ""
+
+#: admin/options.php:339
+msgid "Start slide (0 is random)"
+msgstr ""
+
+#: admin/options.php:342
+msgid "Image protect"
+msgstr ""
+
+#: admin/options.php:344
+msgid "Disables image dragging and right click with Javascript"
+msgstr ""
+
+#: admin/options.php:347
+#: admin/options.php:349
+msgid "Navigation Throught Keyboard"
+msgstr ""
+
+#: admin/options.php:352
+msgid "Dotted pattern"
+msgstr ""
+
+#: admin/options.php:354
+msgid "Enable dotted pattern over the image"
+msgstr ""
+
+#: admin/options.php:361
+msgid "Lightbox"
+msgstr ""
+
+#: admin/options.php:362
+msgid "Settings"
+msgstr ""
+
+#: admin/options.php:363
+msgid "Lightbox theme"
+msgstr ""
+
+#: admin/options.php:373
+msgid "Select lightbox theme"
+msgstr ""
+
+#: admin/options.php:376
+msgid "Animation speed"
+msgstr ""
+
+#: admin/options.php:383
+msgid "Select animation speed"
+msgstr ""
+
+#: admin/options.php:386
+msgid "Show social tools"
+msgstr ""
+
+#: admin/options.php:392
+msgid "Social tools settings"
+msgstr ""
+
+#: admin/options.php:395
+msgid "Lightbox opacity"
+msgstr ""
+
+#: admin/options.php:397
+msgid "Set lightbox opacity. Value between 0 and 1 (example: 0.3)"
+msgstr ""
+
+#: admin/options.php:404
+msgid "Colors"
+msgstr ""
+
+#: admin/options.php:405
+msgid "Links color"
+msgstr ""
+
+#: admin/options.php:406
+#: admin/options.php:408
+msgid "Enter your color code for links or select by color picker"
+msgstr ""
+
+#: admin/options.php:412
+#: admin/options.php:413
+msgid "Links hover color"
+msgstr ""
+
+#: admin/options.php:415
+msgid "Enter your color code for hover link or select by color picker"
+msgstr ""
+
+#: admin/options.php:419
+msgid "Read more button"
+msgstr ""
+
+#: admin/options.php:420
+msgid "Read more button color"
+msgstr ""
+
+#: admin/options.php:422
+msgid "Enter your color code for read more button or select by color picker"
+msgstr ""
+
+#: admin/options.php:426
+msgid "Read more button hover"
+msgstr ""
+
+#: admin/options.php:427
+msgid "Read more button hover color"
+msgstr ""
+
+#: admin/options.php:429
+msgid "Enter your color code for read more button when hover on or select by color picker"
+msgstr ""
+
+#: admin/options.php:433
+msgid "Read more button text"
+msgstr ""
+
+#: admin/options.php:434
+msgid "Read more button text color"
+msgstr ""
+
+#: admin/options.php:436
+msgid "Enter your color code for read more button text or select by color picker"
+msgstr ""
+
+#: admin/options.php:440
+msgid "Body text"
+msgstr ""
+
+#: admin/options.php:441
+msgid "Content text color"
+msgstr ""
+
+#: admin/options.php:443
+msgid "Enter your color code for body text or select by color picker"
+msgstr ""
+
+#: admin/options.php:447
+msgid "H1"
+msgstr ""
+
+#: admin/options.php:448
+msgid "H1 color"
+msgstr ""
+
+#: admin/options.php:450
+msgid "Enter your color code for H1 or select by color picker"
+msgstr ""
+
+#: admin/options.php:454
+msgid "H2"
+msgstr ""
+
+#: admin/options.php:455
+msgid "H2 color"
+msgstr ""
+
+#: admin/options.php:457
+msgid "Enter your color code for H2 or select by color picker"
+msgstr ""
+
+#: admin/options.php:461
+msgid "H3, H4, H5, H6"
+msgstr ""
+
+#: admin/options.php:462
+msgid "H3, H4, H5, H6 color"
+msgstr ""
+
+#: admin/options.php:464
+msgid "Enter your color code for H3-H6 or select by color picker"
+msgstr ""
+
+#: admin/options.php:468
+#: admin/options.php:469
+msgid "Menu links color"
+msgstr ""
+
+#: admin/options.php:471
+#: admin/options.php:478
+msgid "Enter your color code for menu links or select by color picker"
+msgstr ""
+
+#: admin/options.php:475
+#: admin/options.php:476
+msgid "Menu links color hover"
+msgstr ""
+
+#: admin/options.php:482
+#: admin/options.php:483
+msgid "Images border color"
+msgstr ""
+
+#: admin/options.php:485
+msgid "Enter your color code for images border or select by color picker"
+msgstr ""
+
+#: admin/options.php:489
+#: admin/options.php:490
+msgid "Meta background color"
+msgstr ""
+
+#: admin/options.php:492
+msgid "Enter your color code for meta background or select by color picker"
+msgstr ""
+
+#: admin/options.php:496
+#: admin/options.php:497
+msgid "Body background color"
+msgstr ""
+
+#: admin/options.php:499
+msgid "Enter your color code for body or select by color picker"
+msgstr ""
+
+#: admin/options.php:503
+#: admin/options.php:504
+msgid "Content background color"
+msgstr ""
+
+#: admin/options.php:506
+msgid "Enter your color code for content or select by color picker"
+msgstr ""
+
+#: admin/options.php:510
+#: admin/options.php:511
+msgid "Header background color"
+msgstr ""
+
+#: admin/options.php:513
+msgid "Enter your color code for header or select by color picker"
+msgstr ""
+
+#: admin/options.php:517
+#: admin/options.php:518
+msgid "Footer background color"
+msgstr ""
+
+#: admin/options.php:520
+msgid "Enter your color code for footer or select by color picker"
+msgstr ""
+
+#: admin/options.php:524
+#: admin/options.php:525
+msgid "Menu background color"
+msgstr ""
+
+#: admin/options.php:527
+msgid "Enter your color code for menu or select by color picker"
+msgstr ""
+
+#: admin/options.php:531
+#: admin/options.php:532
+msgid "Background pattern"
+msgstr ""
+
+#: admin/options.php:534
+msgid "Select pattern from drop-down list"
+msgstr ""
+
+#: admin/options.php:542
+msgid "Fonts"
+msgstr ""
+
+#: admin/options.php:543
+msgid "Main font family"
+msgstr ""
+
+#: admin/options.php:544
+msgid "Body font"
+msgstr ""
+
+#: admin/options.php:546
+msgid "Select your main font family for content from drop-down list"
+msgstr ""
+
+#: admin/options.php:551
+#: admin/options.php:552
+msgid "Main font family size"
+msgstr ""
+
+#: admin/options.php:554
+msgid "Enter the font size for main content in px"
+msgstr ""
+
+#: admin/options.php:558
+#: admin/options.php:559
+msgid "H1, H2, H3, H4, H5, H6 font family"
+msgstr ""
+
+#: admin/options.php:561
+msgid "Select your font family for H1, H2, H3, H4, H5, H6 heading from drop-down list"
+msgstr ""
+
+#: admin/options.php:566
+#: admin/options.php:567
+msgid "Date font family"
+msgstr ""
+
+#: admin/options.php:569
+msgid "Select your font family for blog date from drop-down list"
+msgstr ""
+
+#: admin/options.php:574
+#: admin/options.php:575
+msgid "Nav menu font family"
+msgstr ""
+
+#: admin/options.php:577
+msgid "Select your font family for nav menu from drop-down list"
+msgstr ""
+
+#: admin/options.php:582
+#: admin/options.php:583
+msgid "H1 font size"
+msgstr ""
+
+#: admin/options.php:585
+msgid "Enter the font size for H1 in px"
+msgstr ""
+
+#: admin/options.php:589
+#: admin/options.php:590
+msgid "H2 font size"
+msgstr ""
+
+#: admin/options.php:592
+msgid "Enter the font size for H2 in px"
+msgstr ""
+
+#: admin/options.php:596
+#: admin/options.php:597
+msgid "H3 font size"
+msgstr ""
+
+#: admin/options.php:599
+msgid "Enter the font size for H3 in px"
+msgstr ""
+
+#: admin/options.php:603
+#: admin/options.php:604
+msgid "H4 font size"
+msgstr ""
+
+#: admin/options.php:606
+msgid "Enter the font size for H4 in px"
+msgstr ""
+
+#: admin/options.php:610
+#: admin/options.php:611
+msgid "H5 font size"
+msgstr ""
+
+#: admin/options.php:613
+msgid "Enter the font size for H5 in px"
+msgstr ""
+
+#: admin/options.php:617
+#: admin/options.php:618
+msgid "H6 font size"
+msgstr ""
+
+#: admin/options.php:620
+msgid "Enter the font size for H6 in px"
+msgstr ""
+
+#: admin/options.php:627
+msgid "Socials"
+msgstr ""
+
+#: admin/options.php:628
+msgid "Facebook link"
+msgstr ""
+
+#: admin/options.php:629
+#: admin/options.php:631
+msgid "Enter your link to your facebook account or leave this field blank"
+msgstr ""
+
+#: admin/options.php:635
+msgid "Twitter link"
+msgstr ""
+
+#: admin/options.php:636
+#: admin/options.php:638
+msgid "Enter your link to your twitter account or leave this field blank"
+msgstr ""
+
+#: admin/options.php:642
+msgid "Flickr link"
+msgstr ""
+
+#: admin/options.php:643
+#: admin/options.php:645
+msgid "Enter your link to your flickr account or leave this field blank"
+msgstr ""
+
+#: admin/options.php:649
+msgid "Linkedin link"
+msgstr ""
+
+#: admin/options.php:650
+#: admin/options.php:652
+msgid "Enter your link to your linkedin account or leave this field blank"
+msgstr ""
+
+#: extends/widgets.php:21
+msgid "Link to your RSS feed and social media accounts."
+msgstr ""
+
+#: extends/widgets.php:22
+msgid "Teardrop Socials"
+msgstr ""
+
+#: extends/widgets.php:72
+msgid "Shows a few portfolio works linked to your current work."
+msgstr ""
+
+#: extends/widgets.php:73
+msgid "Teardrop Portfolio Works"
+msgstr ""
+
+#: extends/widgets.php:126
+msgid "Displays the recent posts on your site"
+msgstr ""
+
+#: extends/widgets.php:127
+msgid "Teardrop Recent Posts"
+msgstr ""
+
+#: extends/widgets.php:149
+msgid "Recent Posts"
+msgstr ""
+
+#: extends/widgets.php:287
+msgid "Displays the popular posts on your site"
+msgstr ""
+
+#: extends/widgets.php:288
+msgid "Teardrop Popular Posts"
+msgstr ""
+
+#: extends/widgets.php:310
+msgid "Popular Posts"
+msgstr ""
+
+#: extends/widgets.php:449
+msgid "Displays the related posts on your site"
+msgstr ""
+
+#: extends/widgets.php:450
+msgid "Teardrop Related Posts"
+msgstr ""
+
+#: extends/widgets.php:473
+msgid "Related Posts"
+msgstr ""
+
+#: extends/widgets.php:620
+msgid "Shows Flickr photos"
+msgstr ""
+
+#: extends/widgets.php:621
+msgid "Teardrop Flickr photos"
+msgstr ""
+
+#: extends/widgets.php:668
+msgid "Shows Twitter updates"
+msgstr ""
+
+#: extends/widgets.php:669
+msgid "Teardrop Twitter updates"
+msgstr ""
+
+#: extends/3d-tag-cloud/wp-cumulus.php:28
+msgid "Display a 3D tag cloud on your site."
+msgstr ""
+
+#: extends/3d-tag-cloud/wp-cumulus.php:29
+msgid "Teardrop 3D Tag Cloud"
+msgstr ""
+
+#: extends/wysiwyg/interface.php:2
+msgid "You are not allowed to be here"
+msgstr ""
+

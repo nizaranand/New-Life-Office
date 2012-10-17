@@ -1,0 +1,102 @@
+#footer-projcets {
+	position:relative;
+	left:-12px;
+}
+#footer-projcets ul li a {
+	margin:12px 0px 0 12px;
+}
+
+#header-top-pattern{
+	background-image:none;
+}
+
+#menu-container,#menu,.menu-main-container,#header-top-gradient {
+	position: relative;
+	z-index: 102;
+}
+
+#menu ul ul li a{
+	margin-top:-9px;
+	padding-top:7px;
+}
+
+
+#menu ul ul ul {
+	top:-1px;
+}
+
+#menu ul li li {
+	display: block;
+	float: left;
+}
+
+.drop-arrow{
+	top:-5px;	
+}
+
+#menu ul ul .drop-arrow{
+	display:none;	
+}
+
+#footer .four-columns{
+	padding-bottom:5px;
+}
+
+ul#content-slider-navigation{
+	bottom:7px;	
+}
+
+
+.wp-pagenavi{
+width:100%;
+padding:3px 0;
+}
+
+.showcase-item {
+	min-height: 67px;
+}
+
+#footer-container{
+padding-bottom:40px;
+}
+
+
+.latest-projects-holder .latest-project{
+	margin-top:-5px;	
+}
+
+.latest-projects{
+	padding-bottom:20px;	
+}
+
+.latest-next, .latest-prev{
+	bottom:65px;
+}
+
+.coment-box p {
+    margin-top: 0px;
+}
+
+.showcase-item{
+padding-bottom:5px;
+}
+
+.button{
+padding-top:3px;
+padding-bottom:3px;
+}
+
+.sidebar-post-wrapper, #footer .sidebar-post-wrapper{
+padding-bottom:0px;
+}
+
+input.button{
+padding-left:10px;
+padding-right:10px;
+padding-top:2px;
+padding-bottom:2px;
+}
+
+#content{
+padding-bottom:0px;
+}

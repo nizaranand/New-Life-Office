@@ -1,0 +1,174 @@
+/*
+Theme name: WordPress Default - kubrick -
+Editors: Navid Kashani
+Persian Wordpress Project : wp-persian.com
+*/
+body, .commentlist li, #commentform input, #commentform textarea, #commentform p, #sidebar, #wp-calendar caption  {
+	font-family:tahoma, arial;
+}
+#page {
+	text-align:right;
+	direction:rtl;
+}
+h1, h2, h3, #sidebar h2 {
+	font-family:arial, tahoma;
+}
+.commentlist li .avatar {
+	float:left;
+}
+#header {
+	margin:0 1px 0 0;
+}
+.narrowcolumn {
+	float:right;
+	padding: 0 45px 20px 0;
+}
+.widecolumn {
+	margin: 5px 150px 0 0;
+}
+.widecolumn .smallattachment {
+	margin: 5px 0 5px 5px;
+}
+.postmetadata {
+	clear:right;
+}
+#sidebar {
+	margin-left: 0;
+	margin-right: 545px;
+}
+img.alignright {
+	margin: 0 7px 2px 0;
+}
+
+img.alignleft {
+	margin: 0 0 2px 7px;
+}
+
+.alignright {
+	float: left;
+}
+
+.alignleft {
+	float: right;
+}
+code {
+	display:block;
+	direction:ltr;
+	text-align:left;
+}
+acronym, abbr, span.caps {
+	letter-spacing:0; /* fix opera bug */
+}
+html>body .entry ul {
+	padding:0 10px 0 0;
+	text-indent:10px;
+}
+html>body .entry li {
+	margin: 7px 10px 8px 0;
+}
+.entry ol {
+	padding: 0 35px 0 0;
+}
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 10px 0 0;
+}
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 10px 0 0;
+}
+#commentform input {
+	margin: 5px 0 1px 5px;
+}
+#commentform #submit {
+	float:left;
+}
+.commentlist p {
+	margin: 10px 0 10px 5px;
+}
+#wp-calendar #next a {
+	padding-right:0;
+	padding-left:10px;
+	text-align:left;
+}
+#wp-calendar #prev a {
+	padding-left:0;
+	padding-right:10px;
+	text-align:right;
+}
+blockquote {
+	margin: 15px 10px 0 30px;
+	padding-left: 0;
+	padding-right: 20px;
+	border-left: 0 none;
+	border-right: 5px solid #ddd;
+}
+#email, #url {
+	direction:ltr;
+}
+/* RK : Begin Modifications for WPOSC Dec 2008 */
+.sitemap_page {
+	list-style: disc;
+	color: #1AB1B9;
+
+}
+.sitemap_category {
+	list-style: disc;
+	color: #F1896B;
+
+}
+.sitemap_article {
+	list-style: disc;
+	color: #75C16C;
+}
+.sitemap_product {
+	list-style: disc;
+	color: #333399;
+}
+.submit{
+	color: #666;
+	font-size: 10px;
+	padding: 1px;
+	background: #fff;
+	border: 1px solid #4D8FC6;
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+} 
+.button_add_address, 
+.button_address_book,
+.button_back,
+.button_buy_now,
+.button_change_address,
+.button_checkout,
+.button_confirm_order,
+.button_continue,
+.button_continue_shopping,
+.button_create_account,
+.button_delete,
+.button_edit_account,
+.button_history,
+.button_in_cart,
+.button_login,
+.button_notifications,
+.button_quick_find,
+.button_remove_notifications,
+.button_reviews,
+.button_search,
+.button_shipping_options,
+.button_tell_a_friend,
+.button_update,
+.button_update_cart,
+.button_write_review {
+	color: #666;
+	font-size: 10px;
+	padding: 1px;
+	background: #fff;
+	border: 1px solid #4D8FC6;
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+
+}
+select {
+	color: #333;
+}
+/* RK : End Modifications for WPOSC Dec 2008 */

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<configuration viewport="40,80,40,80,offset" fullScreenScaleMode='downscaleToFit' scaleMode='downscaleToFit' backgroundColor='#ffffff' delay="4" startWithAlbumID="salt_lake" >
+
+<progress />
+		<caption backgroundRoundness="2" backgroundType="fitCompleteText" textAlign='right' position='topLeft' margin="10,3,0,3" padding="5,0,5,5" showCount="false" width="80%" >
+			<title color="#ffffff" size="18" weight="bold" />
+			<description color="#e13a3e" size="24" weight="bold" />
+			<shadow/>
+			<transition direction="topToBottom" />
+		</caption>
+ 
+<controller appearTime="0.2" backgroundRoundness="0" iconColorOver="#ff0000" startHidden="true" strokeWidth="0" strokeType="square" position='topRight' >
+			<transition direction="topToBottom" />
+			<scrubBar progressColor="#ff0000" />
+			<shadow/>
+</controller>  
+<album >
+<image />        
+<transition easing='easeOut' time="2.5"/>
+</album>
+<thumbnailNavigation backgroundAlpha=".5" backgroundRoundness="0" iconHeight="45" iconMargin="3,3,3,3" iconWidth="45" margin="0,10,0,15" padding="0,0,0,0" strokeColor="#333333" type="normal" >
+			<items height="50" strokeColor="#000000" width="50" >
+				<shadow/>
+				<transition scale="2" >
+					<shadow sizeX="4" sizeY="4" strength="1" />
+				</transition>
+			</items>
+			<shadow/>
+</thumbnailNavigation>
+
+<contents>
+</contents>
+</configuration>
+
+

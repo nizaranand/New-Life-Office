@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://as3flvplayer.sourceforge.net/</loc>
+		<lastmod>2008-10-14</lastmod>
+		<priority>0.8</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://as3flvplayer.sourceforge.net/demo.php</loc>
+		<lastmod>2008-10-14</lastmod>
+		<priority>0.8</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+</urlset>

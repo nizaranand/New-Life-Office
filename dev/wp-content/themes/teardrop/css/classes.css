@@ -1,0 +1,212 @@
+.float-left{float:left;}
+.float-right{float:right;}
+.block{display:block;}
+.margin-fl20{margin:0 20px 20px 0;}
+
+.round_6{
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.read-more  {
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);	
+    cursor: pointer;
+    font-size: 11px;
+    padding: 10px 20px;
+    position: relative;
+    text-decoration: none !important;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.9);
+    width: auto;
+}
+
+.read-more-link {
+    display: block;
+    font-weight: normal;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.read-more-link:hover{
+ text-decoration:underline;
+
+ }
+
+.vimeo {   
+	background-color: #404040;	
+	margin-bottom: 15px;
+	padding: 5px 5px 4px; 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+ 
+.youtube-short {
+    
+	background-color: #404040;	
+	margin-bottom: 15px;
+	padding: 5px 5px 4px; 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+
+
+.image-small {	
+	background-color: #404040;
+    float: left;
+    height: 67px;
+    margin: 0 8px 8px 0;
+    padding: 3px;
+    width: 87px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+.image-small img{width:auto;height:67px;}
+.image-thumb, #thumb-list li img {	    
+	background-color: #404040;
+    height: 97px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 230px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+
+#thumb-list li img {	    
+	background-color: #404040;
+    padding: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+
+.image-thumb img{width:230px;height:97px;}
+.image-square{	    
+	background-color: #404040;
+	width:160px;
+	height:160px;
+	padding: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+
+.article .content-area .image-square{
+	margin-right:15px;
+	float:left;
+}
+
+.image-med{	
+	width:210px;
+	height:190px;	
+	background-color: #404040;
+	margin-bottom: 25px;
+	padding:5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+
+#threecol .image-med{	
+	width:194px;
+	height:240px;
+	margin-bottom: ;
+}
+
+.image-full, .image-blog, .image-fullfea {	
+    height: 250px;
+    margin-bottom: 25px;
+    width: 490px;	
+	background-color: #404040;
+	padding:5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+
+.image-fullfea {
+	height: 350px!important;
+}
+
+.image-twocol, .image-onecol{	
+	width:327px;
+	height:230px;	
+	background-color: #404040;
+	padding:5px;
+	margin-bottom:25px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+
+.image-onecol {
+float:left;
+margin-right:35px;
+margin-bottom:0px;
+}
+ 
+.preload{
+  position:relative;
+  display:block;
+  width:100%;
+  height:100%;
+  background: url(../i/preload.gif) center center no-repeat;
+}
+
+.preload .hover, .preload .zoom{
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+.preload .zoom{
+	background: #000000 url(../i/icon-zoom.png) center center no-repeat;
+	opacity:0;
+	filter: alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	zoom:1;
+}
+.preload .video .zoom {
+  background-image: url(../i/icon-zoom-video.png);
+}
+
+.teardrop-flickr-widget img {
+	height:58px;
+	width:58px;
+	opacity:0.7;
+	background-color: #404040;
+}
+
+.teardrop-flickr-widget .flickr_badge_image {
+    float: left;
+    margin: 6px 6px 0 0;
+    padding: 2px 2px 1px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+}
+
+#sidebar-footer .teardrop-flickr-widget img {
+	height:40px;
+	width:40px;
+	opacity:0.7;
+}
+
+#sidebar-footer  .teardrop-flickr-widget .flickr_badge_image {
+    border: none;
+    float: left;
+    margin: 1% 2% 0 0;
+    padding: 2px 2px 1px;
+}

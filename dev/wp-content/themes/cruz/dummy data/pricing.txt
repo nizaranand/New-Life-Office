@@ -1,0 +1,226 @@
+[full]
+
+[dropcap]P[/dropcap]ricing grids can be used to display various product offers and services in form of a comparison chart. These girds can be inserted with one click of visual short codes. The grids are available in three-column, four-column and five-column liquid format. i.e. you can use these grids hassle free on a full width page, or on a page with sidebar. The widths will be adjusted accordingly.
+
+[/full]
+
+[hr]
+
+[full]
+<h4>A three Columnar <strong>Pricing Grid</strong></h4>
+[pricing]
+
+[col3 title="Normal Offer"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$35<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+	<li>Feature four</li>
+</ul>
+
+[btn link="#" color="aqua"]Purchase Now &rarr;[/btn]
+[/col3]
+
+[col3 title="Premium Offer" premium="true"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$40<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+	<li>Feature four</li>
+	<li><strong>Feature Five</strong> (Premium)</li>
+	<li><strong>Feature Six</strong> (Premium)</li>
+</ul>
+
+[btn link="#" color="paleVioletRed"]Purchase Now &rarr;[/btn]
+[/col3]
+
+[col3 title="Economy Offer"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$27<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+	<li>Feature four</li>
+</ul>
+
+[btn link="#" color="aqua"]Purchase Now &rarr;[/btn]
+[/col3]
+
+[/pricing]
+
+[/full]
+
+[hr]
+
+[full]
+<h4>A Four Columnar <strong>Pricing Grid</strong></h4>
+[pricing]
+
+[col4 title="Normal Offer"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$35<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+	<li>Feature four</li>
+</ul>
+
+[btn link="#" color="aqua"]Purchase Now &rarr;[/btn]
+[/col4]
+
+[col4 title="Premium Offer" premium="true"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$40<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+	<li>Feature four</li>
+	<li><strong>Feature Five</strong> (Premium)</li>
+	<li><strong>Feature Six</strong> (Premium)</li>
+</ul>
+
+[btn link="#" color="paleVioletRed"]Purchase Now &rarr;[/btn]
+[/col4]
+
+[col4 title="Economy Offer"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$27<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+	<li>Feature four</li>
+</ul>
+
+[btn link="#" color="aqua"]Purchase Now &rarr;[/btn]
+[/col4]
+
+[col4 title="Freebie Offer"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$0<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list3">
+	<li>Feature one</li>
+	<li>Feature two</li>
+</ul>
+
+[btn link="#" color="sandyBrown"]Download Now &rarr;[/btn]
+[/col4]
+
+[/pricing]
+[/full]
+
+[hr]
+
+[full]
+<h4>A Five Columnar <strong>Pricing Grid</strong></h4>
+[pricing]
+
+[col5 title="Normal Offer"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$35<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+	<li>Feature four</li>
+</ul>
+
+[btn link="#" color="aqua"]Purchase Now &rarr;[/btn]
+[/col5]
+
+[col5 title="Premium Offer" premium="true"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$40<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list3">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+	<li>Feature four</li>
+	<li><strong>Feature Five</strong> (Premium)</li>
+	<li><strong>Feature Six</strong> (Premium)</li>
+</ul>
+
+[btn link="#" color="paleVioletRed"]Purchase Now &rarr;[/btn]
+[/col5]
+
+[col5 title="Economy Offer"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$27<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+	<li>Feature four</li>
+</ul>
+
+[btn link="#" color="aqua"]Purchase Now &rarr;[/btn]
+[/col5]
+
+[col5 title="Starter Offer"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$12<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+	<li>Feature three</li>
+</ul>
+
+[btn link="#" color="aqua"]Purchase Now &rarr;[/btn]
+[/col5]
+
+[col5 title="Freebie Offer"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante.
+<h1 class="large">$0<big>.00</big></h1>
+Some more offer details here. You can also use lists to display product features.
+
+<ul class="list list1">
+	<li>Feature one</li>
+	<li>Feature two</li>
+</ul>
+
+[btn link="#" color="sandyBrown"]Download Now &rarr;[/btn]
+[/col5]
+
+[/pricing]
+[/full]

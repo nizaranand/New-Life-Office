@@ -1,0 +1,39 @@
+[full]
+
+[dropcap]S[/dropcap]how case your specific products using the Tour Feature. You can instantly insert a toured content via visual short codes and start editing the content. There is no limitation to the width of the page. You can use this feature on a "Page with Sidebar" too. On this page, let's take an example of visual short codes feature and describe some of the short codes with their options.
+[/full]
+
+[hr]
+
+[tour heading="Visual Short Codes"]
+[step title="General Overview"]
+<h4>General <strong>Overview</strong></h4>
+<strong>Cruz</strong> comes with 16 visual short code buttons placed in the third row of TinyMCE editor in "Visual" mode. You can insert various short codes using these buttons. Each button bears it's own option panel, depending upon the parameters and attributes used by a particular short code.
+
+<img src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/tour.jpg" alt="Visual short codes overview" />
+[/step]
+[step title="Layout Columns"]
+<h4>Layout <strong>Columns</strong></h4>
+The first button is for layout columns. You can easily insert a set of columns for a full width page or normal page using this option. Below is a screen shot or options available with the layout columns short code.
+
+<img src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/tour2.jpg" alt="Layout Columns" />
+[/step]
+[step title="Image Frames"]
+<h4>Image <strong>Frames</strong></h4>
+You can insert an image and re size it on-the-fly with timthumb script. The short code allows you to select different image styles, prettyphoto and size parameters.
+
+<img src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/tour3.jpg" alt="Image Frames" />
+[/step]
+[step title="CSS3 Buttons"]
+<h4>CSS3 <strong>Buttons</strong></h4>
+<strong>Cruz</strong> comes with 20 color styles on CSS3 Button with 5 different sizes. You can instantly insert a button of your choice and color using the button short code. Here is a screen shot of options available with the button short code.
+
+<img src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/tour4.jpg" alt="CSS3 Buttons" />
+[/step]
+[step title="Just for demo"]
+<h4>Just for <strong>Demo</strong></h4>
+<strong>Cruz</strong> comes with 16 visual short code buttons placed in the third row of TinyMCE editor in "Visual" mode. You can insert various short codes using these buttons. Each button bears it's own option panel, depending upon the parameters and attributes used by a particular short code.
+
+<img src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/tour.jpg" alt="Visual short codes overview" />
+[/step]
+[/tour]

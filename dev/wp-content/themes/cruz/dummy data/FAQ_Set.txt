@@ -1,0 +1,49 @@
+[two_third_last]
+
+[dropcap]F[/dropcap]requently asked questions are an important part of any business web site. You can describe general pros and cons of your product/service using a FAQ set. This helps a buyer in understanding the product in a better way prior to the purchase. The FAQ set is another light weight form of accordions that can be inserted using the visual short codes.
+
+[/two_third_last]
+
+[hr]
+
+[faq question="<strong>1.</strong> What is XYZ product? How it is better than ABC?"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/faq]
+
+[faq question="<strong>2.</strong> I have bought the Software. How do I activate it now?"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/faq]
+
+[faq question="<strong>3.</strong> I have an evaluation version. How to enable XYZ feature on the product?"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/faq]
+
+[faq question="<strong>4.</strong> How to export files from XYZ product to ABC software?"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/faq]
+
+[faq question="<strong>5.</strong> Which version is better for my current Operating System? I am using Snow Leopard."]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/faq]
+
+[faq question="<strong>6.</strong> Do I need to pay for automatic updates that happen quarterly?"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/faq]
+
+[faq question="<strong>7.</strong> Is it allowed to use same XYZ software on more than two machines?"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/faq]

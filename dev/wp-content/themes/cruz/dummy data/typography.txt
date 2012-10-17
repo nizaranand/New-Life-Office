@@ -1,0 +1,180 @@
+[two_third_last]
+<h1>H1 Level Heading</h1>
+<h2>H2 Level Heading</h2>
+<h3>H3 Level Heading</h3>
+<h4>H4 Level Heading<h4>
+<h5>H5 Level Heading</h5>
+
+[/two_third_last]
+
+[hr]
+
+<h4>Miscellaneous <strong>HTML Elements</strong></h4>
+
+[one_third]
+
+<strong>Abbr and Acronym</strong>
+
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+Can I get this <acronym title="as soon as possible">ASAP</acronym>?
+
+<strong>Definition List</strong>
+
+<dl> <dt>Coffee</dt> <dd>- black hot drink</dd> <dt>Milk</dt> <dd>- white cold drink</dd> </dl><strong>4. del and ins</strong>
+
+My favorite color is <del>red</del> <ins>blue</ins>!
+
+[/one_third]
+
+[one_third_last]
+
+<strong>Text Styles</strong>
+
+<a href=#" title="Link example">Anchor link</a>
+<tt>Teletype text</tt>
+<em>Italic text</em>
+<strong>Bold text</strong>
+<big>Big text</big>
+<small>Small text</small>
+<em>Emphasized text</em>
+<strong>Strong text</strong>
+<dfn>Definition term</dfn>
+<code>Computer code text</code>
+<samp>Sample computer code text</samp>
+<kbd>Keyboard text</kbd>
+<var>Variable</var>
+<cite>Citation</cite>
+<big>Eample</big><sub>subscript</sub> and <big>Example</big><sup>superscript</sup>
+[/one_third_last]
+
+[hr]
+
+[two_third_last]
+<h4>Blockquote</h4>
+<blockquote>Courageous, untroubled, mocking, and violent; that is what wisdom wants us to be. Wisdom is a Woman, and loves only a warrior.</blockquote>
+[quote]
+This is an example of styled quote using the short code. Use it for testimonials.
+[/quote]
+[/two_third_last]
+
+[hr]
+
+[one_third]
+<h4>Pullquote Left</h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. [pullquote_left]Freedom is nothing but a chance to be better - <small><em>A. Camus</em></small>[/pullquote_left]Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+[/one_third]
+
+[one_third_last]
+<h4>Pullquote Right</h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. [pullquote_right]Freedom is nothing but a chance to be better - <small><em>A. Camus</em></small>[/pullquote_right]Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+[/one_third_last]
+
+[hr]
+
+[one_third]
+<h4>Unordered List</h4>
+<ul>
+	<li>Wordpress</li>
+	<li>HTML/CSS
+<ul>
+	<li>Wordpress</li>
+	<li>HTML/CSS</li>
+</ul>
+</li>
+	<li>Photoshop</li>
+	<li>Landing Pages</li>
+	<li>Illustration</li>
+</ul>
+[/one_third]
+
+[one_third_last]
+<h4>Ordered List</h4>
+<ol>
+	<li>Wordpress</li>
+	<li>HTML/CSS
+<ol>
+	<li>Wordpress</li>
+	<li>HTML/CSS
+<ol>
+	<li>Wordpress</li>
+	<li>HTML/CSS</li>
+</ol>
+</li>
+	<li>Photoshop</li>
+	<li>Landing Pages</li>
+</ol>
+</li>
+	<li>Photoshop</li>
+	<li>Landing Pages</li>
+	<li>Illustration</li>
+</ol>
+[/one_third_last]
+
+[hr]
+
+[two_third_last]
+<h4>Dropcap</h4>
+[dropcap]L[/dropcap]orem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla.
+[/two_third_last]
+
+[hr]
+
+[two_third_last]
+<h4>Pre</h4>
+<pre>/* Pre code example */
+&lt;body&gt;
+&lt;div&gt;
+- An example of pre/code -
+&lt;/div&gt;&lt;!-- .wrap--&gt;
+&lt;/body&gt;</pre>
+[/two_third_last]
+
+[hr]
+
+[two_third_last]
+<h4>Table</h4>
+<table class="mytable" cellspacing="0">
+<tbody>
+<tr>
+<th class="flat" scope="col">My Table</th>
+<th scope="col">Col 1</th>
+<th scope="col">Col 2</th>
+<th scope="col">Col 3</th>
+<th scope="col">Col 4</th>
+<th scope="col">Col 5</th>
+</tr>
+<tr>
+<th scope="row">Row 1</th>
+<td>R1C1</td>
+<td>R1C2</td>
+<td>R1C3</td>
+<td>R1C4</td>
+<td>R1C5</td>
+</tr>
+<tr class="alternate">
+<th scope="row">Row 2</th>
+<td>R2C1</td>
+<td>R2C2</td>
+<td>R2C3</td>
+<td>R2C4</td>
+<td>R2C5</td>
+</tr>
+<tr>
+<th scope="row">Row 3</th>
+<td>R3C1</td>
+<td>R3C2</td>
+<td>R3C3</td>
+<td>R3C4</td>
+<td>R3C5</td>
+</tr>
+<tr class="alternate">
+<th scope="row">Row 4</th>
+<td>R4C1</td>
+<td>R4C2</td>
+<td>R4C3</td>
+<td>R4C4</td>
+<td>R4C5</td>
+</tr>
+</tbody>
+</table>
+[/two_third_last]

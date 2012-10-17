@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Cotton v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: Pexeto\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;pex_text\n"
+"X-Poedit-Basepath: .\n"
+
+msgid "_404_text"
+msgstr ""
+
+
+msgid "_no_posts_available"
+msgstr ""
+
+
+msgid "_no_comments_text"
+msgstr ""
+
+msgid "_one_comment_text"
+msgstr ""
+
+msgid "_comments_text"
+msgstr ""
+
+msgid "_leave_comment_text"
+msgstr ""
+
+msgid "_comment_name_text"
+msgstr ""
+
+msgid "_email_text"
+msgstr ""
+
+msgid "_website_text"
+msgstr ""
+
+msgid "_your_comment_text"
+msgstr ""
+
+msgid "_submit_comment_text"
+msgstr ""
+
+msgid "_copyright_text"
+msgstr ""
+
+msgid "_seo_home_title"
+msgstr ""
+
+msgid "_seo_category_title"
+msgstr ""
+
+msgid "_seo_tag_title"
+msgstr ""
+
+msgid "_search_tag_title"
+msgstr ""
+
+msgid "_search_results_text"
+msgstr ""
+
+msgid "_no_results_text"
+msgstr ""
+
+msgid "_search_text"
+msgstr ""
+
+msgid "_read_more"
+msgstr "De read more"
+
+msgid "_previous_text"
+msgstr ""
+
+msgid "_next_text"
+msgstr ""
+
+msgid "_contact_error"
+msgstr ""
+
+msgid "_message_sent_text"
+msgstr ""
+
+msgid "_name_text"
+msgstr ""
+
+msgid "_your_email_text"
+msgstr ""
+
+msgid "_question_text"
+msgstr ""
+
+msgid "_send_text"
+msgstr ""
+
+msgid "_in_text"
+msgstr ""
+
+msgid "_by_text"
+msgstr ""
+
+msgid "_showme_text"
+msgstr ""
+
+msgid "_all_text"
+msgstr ""
+
+msgid "_reply_text"
+msgstr ""
+

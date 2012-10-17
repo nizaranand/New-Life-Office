@@ -1,0 +1,226 @@
+<h4>CSS3 <strong>Buttons</strong></h4>
+
+[two_third_last]
+
+[btn link="#" color="aqua"]Button Size 0[/btn]  [btn link="#" color="crimson"]Button Size 0[/btn]  [btn link="#" color="dimGrey"]Button Size 0[/btn]  [btn link="#" color="paleVioletRed"]Button Size 0[/btn]  [btn link="#" color="peru"]Button Size 0[/btn]  [btn link="#" color="plum"]Button Size 0[/btn]
+
+[btn link="#" color="purple"]Button Size 0[/btn]  [btn link="#" color="rosyBrown"]Button Size 0[/btn]  [btn link="#" color="royalBlue"]Button Size 0[/btn]  [btn link="#" color="salmon"]Button Size 0[/btn]  [btn link="#" color="sandyBrown"]Button Size 0[/btn]  [btn link="#" color="seaGreen"]Button Size 0[/btn]
+
+[btn link="#" color="skyBlue"]Button Size 0[/btn]  [btn link="#" color="slateGrey"]Button Size 0[/btn]  [btn link="#" color="steelBlue"]Button Size 0[/btn]  [btn link="#" color="tan"]Button Size 0[/btn]  [btn link="#" color="teal"]Button Size 0[/btn]  [btn link="#" color="tomato"]Button Size 0[/btn]
+
+[btn link="#" color="turquoise"]Button Size 0[/btn]  [btn link="#" color="yellowGreen"]Button Size 0[/btn]
+
+[btn link="#" color="crimson"]Size 0[/btn]  [btn link="#" color="peru" size="size-m"]Size 1[/btn]  [btn link="#" color="purple" size="size-l"]Size 2[/btn]  [btn link="#" color="yellowGreen" size="size-xl"]Size 3[/btn]  [btn link="#" color="salmon" size="size-xxl"]Size 4[/btn]
+[/two_third_last]
+
+[hr_dotted]
+
+<h4>Tabs, Accordion and <strong>Toggle</strong></h4>
+
+[two_third_last]
+
+[tabs]
+[tab title="Tabbed"]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+[/tab]
+[tab title="Content"]
+Aenean sodales, augue venenatis posuere fermentum, tellus velit vestibulum libero, ut elementum ipsum erat sed tellus. Donec vel sapien porta sapien eleifend tincidunt at sit amet erat. Praesent in dolor eu orci malesuada viverra vitae vel purus. Sed sit amet dui nisl.
+[/tab]
+[tab title="Show case"]
+Proin quam neque, fringilla vel porta eu, ultricies id quam. Praesent magna leo, interdum vitae auctor eu, commodo imperdiet ligula. Donec elit nunc, pellentesque vel pulvinar non, semper id nibh. Praesent sapien felis, gravida a lacinia sed, sagittis vitae erat. Proin vel massa ante, quis facilisis nunc. Curabitur dignissim fringilla ante vitae tincidunt.
+[/tab]
+[/tabs]
+
+[/two_third_last]
+
+[two_third_last]
+
+[accordion title="Accordion item 1"]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla.
+[/accordion]
+[accordion title="Accordion item 2"]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla.
+[/accordion]
+[accordion title="Accordion item 3"]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla.
+[/accordion]
+
+[/two_third_last]
+
+[two_third_last]
+
+[toggle title="Toggle Content"]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla.
+[/toggle]
+
+[/two_third_last]
+
+[hr_dotted]
+
+<h4>Information <strong>Boxes</strong></h4>
+
+[two_third_last]
+
+[box style="0"]
+<h4>Normal theme box</h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[/box]
+
+[box style="1"]
+<h4>Information or warning</h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[/box]
+
+[box style="2"]
+<h4>Success</h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[/box]
+
+[box style="3"]
+<h4>Error or restriction</h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[/box]
+
+[box style="4"]
+<h4>Event Notification</h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[/box]
+
+[/two_third_last]
+
+[hr]
+
+<h4>Stylish <strong>Unordered Lists</strong></h4>
+[two_nineth]
+<ul class="list list0">
+	<li>Web Design</li>
+	<li>Development</li>
+	<li>Illustration</li>
+	<li>Printing and Media</li>
+</ul>
+[/two_nineth]
+
+[two_nineth]
+<ul class="list list1">
+	<li>Web Design</li>
+	<li>Development</li>
+	<li>Illustration</li>
+	<li>Printing and Media</li>
+</ul>
+[/two_nineth]
+
+[two_nineth_last]
+<ul class="list list2">
+	<li>Web Design</li>
+	<li>Development</li>
+	<li>Illustration</li>
+	<li>Printing and Media</li>
+</ul>
+[/two_nineth_last]
+
+[two_nineth]
+<ul class="list list3">
+	<li>Web Design</li>
+	<li>Development</li>
+	<li>Illustration</li>
+	<li>Printing and Media</li>
+</ul>
+[/two_nineth]
+
+[two_nineth]
+<ul class="list list4">
+	<li>Web Design</li>
+	<li>Development</li>
+	<li>Illustration</li>
+	<li>Printing and Media</li>
+</ul>
+[/two_nineth]
+
+[two_nineth_last]
+<ul class="list list5">
+	<li>Web Design</li>
+	<li>Development</li>
+	<li>Illustration</li>
+	<li>Printing and Media</li>
+</ul>
+[/two_nineth_last]
+
+[two_nineth]
+<ul class="list list6">
+	<li>Web Design</li>
+	<li>Development</li>
+	<li>Illustration</li>
+	<li>Printing and Media</li>
+</ul>
+[/two_nineth]
+
+[two_nineth]
+<ul class="list list7">
+	<li>Web Design</li>
+	<li>Development</li>
+	<li>Illustration</li>
+	<li>Printing and Media</li>
+</ul>
+[/two_nineth]
+
+[two_nineth_last]
+<ul class="list list8">
+	<li>Web Design</li>
+	<li>Development</li>
+	<li>Illustration</li>
+	<li>Printing and Media</li>
+</ul>
+[/two_nineth_last]
+
+[hr]
+<h4>Line <strong>Separators</strong></h4>
+1. Single Line
+[hr]
+
+2. Double Line
+[dhr]
+
+3. 3D Bar
+[hr_3d]
+
+4. Diagonal Strips
+[hr_strip]
+
+5. Single dotted line
+[hr_dotted]
+
+<h4>Images with <strong>Timthumb and Borders</strong></h4>
+
+[hr_dotted]
+
+[one_third]
+
+<h5>No Border No Link</h5>
+
+[frame src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/11.jpg" width="280" height="180" linkstyle="none" title="No border no link"]
+
+[/one_third]
+
+[one_third_last]
+
+<h5>Thick Border w/ PrettyPhoto</h5>
+
+[frame src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/12.jpg" width="280" height="180" style="1" linkstyle="pp" title="Thick border with prettyphoto"]
+
+[/one_third_last]
+
+[one_third]
+
+<h5>Thin Border w/ Custom Link</h5>
+
+[frame  src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/13.jpg"  width="280" height="180" style="2" linkstyle="normal" linksto="http://foo.com" title="Thin border with custom link"]
+
+[/one_third]
+
+[one_third_last]
+
+<h5>Paper Fold on Hover</h5>
+
+[frame  src="http://labs.saurabh-sharma.com/themes/cruz/wp/wp-content/uploads/2011/05/14.jpg"  width="280" height="180" style="foldify" linkstyle="pp" title="Paper fold on hover"]
+
+[/one_third_last]

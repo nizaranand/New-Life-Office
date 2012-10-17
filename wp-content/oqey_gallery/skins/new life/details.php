@@ -1,0 +1,6 @@
+[Name: New Life Office Skin]
+[Version: 0.1]
+[Author: www.theredleafmedia.com]
+[Description: This is the skin for New Life's Galleries]
+[Commercial: no]
+[Skinid: 0003]

@@ -1,0 +1,309 @@
+
+.one_half {
+    float: left;
+    margin-right: 2%;
+	margin-bottom:35px;
+    width: 48%;
+}
+.one_half_last {
+    float: right;
+    margin: 0;
+	margin-bottom:35px;
+    width: 48%;
+}
+.one_third {
+    float: left;
+    margin-right: 5%;
+	margin-bottom:35px;
+    width: 30%;
+}
+.one_third_last {
+    float: right;
+    margin: 0;
+	margin-bottom:35px;
+    width: 30%;
+}
+.one_fourth {
+    float: left;
+    margin-right: 2.9%;
+	margin-bottom:35px;
+    width: 22.8%;
+}
+.one_fourth_last {
+    float: right;
+    margin: 0;
+	margin-bottom:35px;
+    width: 22.8%;
+}
+.one_fifth {
+    float: left;
+    margin-right: 2%;
+	margin-bottom:35px;
+    width: 18.4%;
+}
+.one_fifth_last {
+    float: right;
+    margin: 0;
+	margin-bottom:35px;
+    width: 18.4%;
+}
+.one_sixth {
+    float: left;
+    margin-right: 2%;
+	margin-bottom:35px;
+    width: 15%;
+}
+.one_sixth_last {
+    float: right;
+    margin: 0;
+	margin-bottom:35px;
+    width: 15%;
+}
+.two_thirds {
+    float: left;
+    margin-right: 2%;
+	margin-bottom:35px;
+    width: 66%;
+}
+.two_thirds_last {
+    float: right;
+    margin: 0;
+	margin-bottom:35px;
+    width: 32%;
+}
+.three_fourth {
+    float: left;
+    margin-right: 2%;
+	margin-bottom:35px;
+    width: 75.5%;
+}
+.three_fourth_last {
+    float: right;
+    margin: 0;
+	margin-bottom:35px;
+    width: 22.5%;
+}
+
+.alertBox-info {
+    background-color: #D1EEFB;
+    color: #467B9E !important;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    margin-bottom:35px;
+	font-size:12px!important;
+	line-height:1.6em;
+	clear:both;
+}
+
+
+
+.alertBox-success {
+    background-color: #D8E9BE;
+    color: #5E7248 !important;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    margin-bottom:35px;
+	font-size:12px!important;
+	line-height:1.6em;
+	clear:both;
+}
+
+.alertBox-alert {
+    background-color: #FFF9CC;
+    color: #9D8943 !important;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+   	margin-bottom:35px;
+	font-size:12px!important;
+	line-height:1.6em;
+	clear:both;
+	
+}
+
+.alertBox-error {
+    background-color: #F9CCCC;
+    color: #9B5C5A !important;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+	margin-bottom:35px;
+	font-size:12px!important;
+	line-height:1.6em;
+	clear:both;
+	
+}
+
+.alertBox-download {
+    background-color: #CCF8F9;
+    color: #5A979B !important;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+	margin-bottom:35px;
+	font-size:12px!important;
+	line-height:1.6em;
+	clear:both;
+	
+}
+
+
+.alertBox-success div, .alertBox-info  div, .alertBox-alert  div, .alertBox-error  div, .alertBox-download  div{
+    -moz-border-bottom-colors: none !important;
+    -moz-border-image: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    border-color: rgba(255, 255, 255, 0.6) rgba(255, 255, 255, 0.4) rgba(255, 255, 255, 0.4) !important;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid !important;
+    padding: 10px 10px 10px 55px;
+	clear:both;
+}
+
+.alertBox-info div {
+background: url("../i/information.png") no-repeat scroll 20px 50% transparent
+}
+
+.alertBox-success div {
+background: url("../i/success.png") no-repeat scroll 20px 50% transparent
+}
+
+.alertBox-alert div {
+background: url("../i/alert.png") no-repeat scroll 20px 50% transparent
+}
+
+.alertBox-error div {
+background: url("../i/error.png") no-repeat scroll 20px 50% transparent
+}
+
+.alertBox-download div {
+background: url("../i/download.png") no-repeat scroll 20px 50% transparent
+}
+
+ul.check li , ul.error li , ul.inform li , ul.alert li, ul.download li, ul.arrow li  {
+    border-bottom: 1px solid #505050;
+    line-height: 1.6em;
+    list-style: none outside none;
+    margin: 5px 0;
+    padding-bottom: 5px;
+} 
+
+ul.check li {
+    background: url("../i/success.png") no-repeat scroll 0 0 transparent;
+    padding-left: 25px;
+}
+
+ul.error li {
+    background: url("../i/error.png") no-repeat scroll 0 0 transparent;
+    padding-left: 25px;
+}
+
+ul.inform li {
+    background: url("../i/information.png") no-repeat scroll 0 0 transparent;
+    padding-left: 25px;
+}
+
+ul.alert li {
+    background: url("../i/alert.png") no-repeat scroll 0 0 transparent;
+    padding-left: 25px;
+}
+
+ul.download li {
+    background: url("../i/download.png") no-repeat scroll 0 0 transparent;
+    padding-left: 25px;
+}
+
+ul.arrow li {
+    background: url("../i/arr-nav-sidebar.png") no-repeat scroll 0 6px transparent;
+    padding-left: 15px;
+}
+
+ul.arrow, ul.download, ul.alert, ul.inform, ul.error, ul.check {
+margin-bottom:15px;
+}
+
+
+
+span.highlight-red {
+    background-color: #ff0000;
+    padding: 1px 4px 2px 4px;
+	color:#ffffff;
+}
+
+span.highlight-lightred {
+    background-color: #ffcccc;
+    padding: 1px 4px 2px 4px;
+	color:#000;
+}
+
+span.highlight-yellow {
+    background-color: #ffff00;
+    padding: 1px 4px 2px 4px;
+}
+
+span.highlight-blue {
+    background-color: #0066ff;
+    padding: 1px 4px 2px 4px;
+	color: #ffffff;
+}
+
+span.highlight-green {
+    background-color: #339900;
+    padding: 1px 4px 2px 4px;
+	color: #ffffff;
+}
+
+span.highlight-grey {
+    background-color: #cecece;
+    padding: 1px 4px 2px 4px;
+	color:#000000;
+}
+
+span.highlight-black {
+    background-color: #000000;
+    padding: 1px 4px 2px 4px;
+	color:#ffffff;
+}
+
+span.highlight-orange {
+    background-color: #ffa200;
+    padding: 1px 4px 2px 4px;
+	color:#ffffff;
+}
+
+span.highlight-pink {
+    background-color: #ff33ff;
+    padding: 1px 4px 2px 4px;
+	color:#ffffff;
+}
+
+blockquote {
+    border-left: 1px solid #DEDEDE;
+    clear: both;
+    display: block;
+    font: italic 16px/1.4em "Times New Roman",Times,serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+.button {
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);	
+    cursor: pointer;
+    font-size: 11px;
+    padding: 10px 20px;
+	display:inline-block;
+    position: relative;
+    text-decoration: none !important;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.9);
+    width: auto;
+}
+
+.button_a, .button_a:hover {
+color:#ffffff;
+height:24px;
+}

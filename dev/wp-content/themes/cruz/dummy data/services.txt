@@ -1,0 +1,160 @@
+[full]
+
+[dropcap]S[/dropcap]ervices page can be crafted in number of ways depending upon your content. On this page, we have divided services into different sections, each with a small overview of their features. You can creatively make use of available column short-codes, tabs, accordions, pricing grids and style elements.
+
+[/full]
+
+[hr]
+
+[half]
+<h3>Web enabled <strong>Solutions</strong></h3>
+Cras diam mi, semper id laoreet aliquam, placerat id felis. Donec quis pellentesque lectus.
+
+[tabs]
+[tab title="Features"]
+Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet. Praesent in dolor eu orci malesuada viverra vitae vel purus. Sed sit amet dui nisl. Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet ornare mauris odio id augue.
+
+[btn link="#"]View Details &rarr;[/btn]
+[/tab]
+
+[tab title="Costing"]
+Donec vel sapien porta sapien eleifend tincidunt at sit amet erat. Praesent in dolor eu orci. Praesent in dolor eu orci malesuada viverra vitae vel purus. Sed sit amet dui nisl. Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet ornare mauris odio id augue.
+
+[btn link="#"]View costs &rarr;[/btn]
+[/tab]
+[tab title="Apply Now"]
+Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet. Praesent in dolor eu orci malesuada viverra vitae vel purus. Sed sit amet dui nisl. Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet ornare mauris odio id augue.
+
+[btn link="#"]Submit a quote &rarr;[/btn]
+[/tab]
+[/tabs]
+[/half]
+
+[half_last]
+<h3>Knowledge <strong>Outsourcing</strong></h3>
+Cras diam mi, semper id laoreet aliquam, placerat id felis. Donec quis pellentesque lectus.
+
+[tabs]
+[tab title="Features"]
+Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet. Praesent in dolor eu orci malesuada viverra vitae vel purus. Sed sit amet dui nisl. Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet ornare mauris odio id augue.
+
+[btn link="#"]View Details &rarr;[/btn]
+[/tab]
+
+[tab title="Costing"]
+Donec vel sapien porta sapien eleifend tincidunt at sit amet erat. Praesent in dolor eu orci. Praesent in dolor eu orci malesuada viverra vitae vel purus. Sed sit amet dui nisl. Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet ornare mauris odio id augue.
+
+[btn link="#"]View costs &rarr;[/btn]
+[/tab]
+[tab title="Apply Now"]
+Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet. Praesent in dolor eu orci malesuada viverra vitae vel purus. Sed sit amet dui nisl. Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet ornare mauris odio id augue.
+
+[btn link="#"]Submit a quote &rarr;[/btn]
+[/tab]
+[/tabs]
+[/half_last]
+
+[hr_dotted]
+
+[half]
+<h3>SEO and <strong>Marketing</strong></h3>
+Cras diam mi, semper id laoreet aliquam, placerat id felis. Donec quis pellentesque lectus. Etiam vitae odio et ligula pretium dapibus in at elit. Phasellus est massa, aliquam nec pretium id, sollicitudin rutrum sem. Suspendisse id risus orci, nec vestibulum nunc. Mauris vitae nisl in nunc consequat hendrerit auctor et velit. Donec feugiat luctus ligula, id dictum augue suscipit et.
+[/half]
+
+[one_fourth]
+<h4>Services <strong>Offered</strong></h4>
+<ul class="list list1">
+	<li>SE Optimization</li>
+	<li>Online Marketing</li>
+	<li>Ad Campaigns</li>
+	<li>Promotional Offers</li>
+	<li>Website monitoring</li>
+</ul>
+[/one_fourth]
+
+[one_fourth_last]
+
+[tabs]
+[tab title="Costing"]
+Donec vel sapien porta sapien eleifend tincidunt at sit amet erat. Praesent in dolor eu orci.
+
+[btn link="#"]View costs &rarr;[/btn]
+[/tab]
+[tab title="Apply Now"]
+Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet.
+
+[btn link="#"]Submit a quote &rarr;[/btn]
+[/tab]
+[/tabs]
+
+[/one_fourth_last]
+
+[hr_dotted]
+
+[one_fourth]
+<h4><strong>Web Design</strong></h4>
+An example of a four columnar services section. Use it for miscellaneous services.
+
+<ul class="list list1">
+	<li>HTML/CSS design</li>
+	<li>php/jQuery Plugins</li>
+	<li>Server side scripting</li>
+	<li>Flash banners</li>
+	<li>PSD Mock-ups</li>
+</ul>
+
+[btn link="#"]Know more ?[/btn]
+[/one_fourth]
+
+[one_fourth]
+<h4><strong>Illustration</strong></h4>
+An example of a four columnar services section. Use it for miscellaneous services.
+
+<ul class="list list1">
+	<li>Photo-realistic portraits</li>
+	<li>Tee shirt designs</li>
+	<li>Kiosk design</li>
+	<li>Brochures</li>
+	<li>Stationary</li>
+</ul>
+
+[btn link="#"]Know more ?[/btn]
+[/one_fourth]
+
+[one_fourth]
+<h4><strong>3D and Animation</strong></h4>
+An example of a four columnar services section. Use it for miscellaneous services.
+
+<ul class="list list1">
+	<li>Character Animation</li>
+	<li>Construction Mock-ups</li>
+	<li>Automobile Wire framing</li>
+	<li>Interior Tour</li>
+	<li>Video Advertisements</li>
+</ul>
+
+[btn link="#"]Know more ?[/btn]
+[/one_fourth]
+
+[one_fourth_last]
+<h4><strong>Audio Integration</strong></h4>
+An example of a four columnar services section. Use it for miscellaneous services.
+
+<ul class="list list1">
+	<li>Audio Cleanup</li>
+	<li>Voice enhancement</li>
+	<li>Animation integration</li>
+	<li>Effects</li>
+	<li>Pod cast</li>
+</ul>
+
+[btn link="#"]Know more ?[/btn]
+[/one_fourth_last]
+
+[hr_dotted]
+
+[full]
+[quote]
+This is a small testimonial by a customer who is pleased with your services and product. - <small><em>John Smith, JKL Ltd.</em></small>
+[/quote]
+[/full]

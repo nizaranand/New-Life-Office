@@ -1,0 +1,30 @@
+.slidertip .tooltip.top.slide-up {
+	margin-bottom:-5px;
+	-moz-transition-property:opacity, visibility, margin;
+	-moz-transition-duration:0.2s, 0.2s, 0.4s;
+	-moz-transition-timing-function:ease-in-out, ease-in-out, ease-in-out;
+	-o-transition-property:opacity, visibility, margin-top, margin-bottom;
+	-o-transition-duration:0.2s, 0.2s, 0.2s, 0.4s;
+	-o-transition-timing-function:ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+	-webkit-transition-property:opacity, visibility, margin;
+	-webkit-transition-duration:0.2s, 0.2s, 0.4s;
+	-webkit-transition-timing-function:ease-in-out, ease-in-out, ease-in-out;
+	transition-property:opacity, visibility, margin;
+	transition-duration:0.2s, 0.2s, 0.4s;
+	transition-timing-function:ease-in-out, ease-in-out, ease-in-out;
+}
+.slidertip:hover .tooltip.top.slide-up {
+	margin-bottom:2px;
+	-moz-transition-property:opacity, margin;
+	-moz-transition-duration:0.2s, 0.2s;
+	-moz-transition-timing-function:ease-in-out, ease-in-out;
+	-o-transition-property:opacity, margin-top, margin-bottom;
+	-o-transition-duration:0.2s, 0.2s, 0.2s;
+	-o-transition-timing-function:ease-in-out, ease-in-out, ease-in-out;
+	-webkit-transition-property:opacity, margin;
+	-webkit-transition-duration:0.2s, 0.2s;
+	-webkit-transition-timing-function:ease-in-out, ease-in-out;
+	transition-property:opacity, margin;
+	transition-duration:0.2s, 0.2s;
+	transition-timing-function:ease-in-out, ease-in-out;
+}

@@ -1,0 +1,436 @@
+<?xml version="1.0" standalone="yes"?>
+<installation>
+  <before_installation_message><![CDATA[
+Installation of the <b>Order Editor 5.0.6.6</b> <br /><br />
+<table><tr><td>
+1) Make directory catalog/admin/<b>order_editor</b><br />
+2) Click the "Install" button.
+</td></tr></table>
+<br />
+]]></before_installation_message>
+  <after_installation_message><![CDATA[
+  <style type="text/css">
+<!--
+.tableBorder {
+	border: 1px solid #333333;
+}
+body {
+	font-family: Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 10pt;
+}
+h3 {
+	font-family: Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 14pt;
+	font-weight: bolder;
+	font-variant: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #333333;
+	padding-left: 10px;
+	margin-top: 50px;
+}
+h2 {
+	font-family: Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 16pt;
+	font-weight: bolder;
+	color: #99CCCC;
+	background-color: #333333;
+	text-align: left;
+	padding: 5px;
+}
+h4 {
+	font-family: Tahoma, "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 14pt;
+	font-weight: bolder;
+	font-style: italic;
+}
+li {
+	margin-bottom: 10px;
+}
+.notice {
+	background-color: #BFDFFF;
+	padding: 2px;
+	border: 1px solid #666666;
+	margin: 20px;
+	width: 95%;
+}
+pre {
+	font-family: "Courier New", Courier, mono;
+	font-size: 10pt;
+	background-color: #FFFFCC;
+	padding: 5px 2px;
+	border: 1px solid #666666;
+	overflow: auto;
+}
+.instr_open {
+	font-family: "Courier New", Courier, mono;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.instr_lines {
+	font-family: "Courier New", Courier, mono;
+	font-size: 10pt;
+}
+.code {
+	font-family: "Courier New", Courier, mono;
+	font-size: 10pt;
+}
+-->
+</style>
+
+<h4><br>
+  <a name="module"></a>Configure the Order Editor interface</h4>
+<p class="instr_lines">Log into your admin section and go to <strong>Configuration->Order Editor</strong>.  Carefully read each entry there and select the appropriate settings for your computer/shop.</p>
+<p class="instr_lines">You are now ready to begin using Order Editor.</p>
+]]></after_installation_message>
+  <steps>
+    <step>
+      <action>copy_file</action>
+      <filename>edit_orders.php</filename>
+      <destname>admin/edit_orders.php</destname>
+    </step>
+    <step>
+      <action>copy_file</action>
+      <filename>edit_orders_ajax.php</filename>
+      <destname>admin/edit_orders_ajax.php</destname>
+    </step>
+    <step>
+      <action>copy_file</action>
+      <filename>edit_orders_add_product.php</filename>
+      <destname>admin/edit_orders_add_product.php</destname>
+    </step>
+    <step>
+      <action>copy_file</action>
+      <filename>cart.php</filename>
+      <destname>admin/order_editor/cart.php</destname>
+    </step>	
+    <step>
+      <action>copy_file</action>
+      <filename>css.php</filename>
+      <destname>admin/order_editor/css.php</destname>
+    </step>
+    <step>
+      <action>copy_file</action>
+      <filename>functions.php</filename>
+      <destname>admin/order_editor/functions.php</destname>
+    </step>
+    <step>
+      <action>copy_file</action>
+      <filename>http_client.php</filename>
+      <destname>admin/order_editor/http_client.php</destname>
+    </step>
+    <step>
+      <action>copy_file</action>
+      <filename>javascript.php</filename>
+      <destname>admin/order_editor/javascript.php</destname>
+    </step>
+    <step>
+      <action>copy_file</action>
+      <filename>order.php</filename>
+      <destname>admin/order_editor/order.php</destname>
+    </step>
+    <step>
+      <action>copy_file</action>
+      <filename>order_total.php</filename>
+      <destname>admin/order_editor/order_total.php</destname>
+    </step>
+    <step>
+      <action>copy_file</action>
+      <filename>shipping.php</filename>
+      <destname>admin/order_editor/shipping.php</destname>
+    </step>	
+    <step>
+      <action>copy_file</action>
+      <filename>english/edit_orders.php</filename>
+      <destname>admin/includes/languages/english/edit_orders.php</destname>
+    </step>
+	<step>
+      <action>copy_file</action>
+      <filename>english/images/buttons/button_add_article.gif</filename>
+      <destname>admin/includes/languages/english/images/buttons/button_add_article.gif</destname>
+    </step>	
+	<step>
+      <action>copy_file</action>
+      <filename>english/images/buttons/button_new_order_email.gif</filename>
+      <destname>admin/includes/languages/english/images/buttons/button_new_order_email.gif</destname>
+    </step>
+    <step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>danish/edit_orders.php</filename>
+      <destname>admin/includes/languages/danish/edit_orders.php</destname>
+    </step>
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>danish/images/buttons/button_add_article.gif</filename>
+      <destname>admin/includes/languages/danish/images/buttons/button_add_article.gif</destname>
+    </step>	
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>danish/images/buttons/button_new_order_email.gif</filename>
+      <destname>admin/includes/languages/danish/images/buttons/button_new_order_email.gif</destname>
+    </step>
+    <step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>dutch/edit_orders.php</filename>
+      <destname>admin/includes/languages/dutch/edit_orders.php</destname>
+    </step>
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>dutch/images/buttons/button_add_article.gif</filename>
+      <destname>admin/includes/languages/dutch/images/buttons/button_add_article.gif</destname>
+    </step>	
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>dutch/images/buttons/button_new_order_email.gif</filename>
+      <destname>admin/includes/languages/dutch/images/buttons/button_new_order_email.gif</destname>
+    </step>
+    <step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>espanol/edit_orders.php</filename>
+      <destname>admin/includes/languages/espanol/edit_orders.php</destname>
+    </step>
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>espanol/images/buttons/button_add_article.gif</filename>
+      <destname>admin/includes/languages/espanol/images/buttons/button_add_article.gif</destname>
+    </step>	
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>espanol/images/buttons/button_new_order_email.gif</filename>
+      <destname>admin/includes/languages/espanol/images/buttons/button_new_order_email.gif</destname>
+    </step>	
+    <step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>finnish/edit_orders.php</filename>
+      <destname>admin/includes/languages/finnish/edit_orders.php</destname>
+    </step>
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>finnish/images/buttons/button_add_article.gif</filename>
+      <destname>admin/includes/languages/finnish/images/buttons/button_add_article.gif</destname>
+    </step>	
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>finnish/images/buttons/button_new_order_email.gif</filename>
+      <destname>admin/includes/languages/finnish/images/buttons/button_new_order_email.gif</destname>
+    </step>
+    <step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>french/edit_orders.php</filename>
+      <destname>admin/includes/languages/french/edit_orders.php</destname>
+    </step>
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>french/images/buttons/button_add_article.gif</filename>
+      <destname>admin/includes/languages/french/images/buttons/button_add_article.gif</destname>
+    </step>	
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>french/images/buttons/button_new_order_email.gif</filename>
+      <destname>admin/includes/languages/french/images/buttons/button_new_order_email.gif</destname>
+    </step>
+    <step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>german/edit_orders.php</filename>
+      <destname>admin/includes/languages/german/edit_orders.php</destname>
+    </step>
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>german/images/buttons/button_add_article.gif</filename>
+      <destname>admin/includes/languages/german/images/buttons/button_add_article.gif</destname>
+    </step>	
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>german/images/buttons/button_new_order_email.gif</filename>
+      <destname>admin/includes/languages/german/images/buttons/button_new_order_email.gif</destname>
+    </step>	
+    <step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>italian/edit_orders.php</filename>
+      <destname>admin/includes/languages/italian/edit_orders.php</destname>
+    </step>
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>italian/images/buttons/button_add_article.gif</filename>
+      <destname>admin/includes/languages/italian/images/buttons/button_add_article.gif</destname>
+    </step>	
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>italian/images/buttons/button_new_order_email.gif</filename>
+      <destname>admin/includes/languages/italian/images/buttons/button_new_order_email.gif</destname>
+    </step>
+    <step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>norwegian/edit_orders.php</filename>
+      <destname>admin/includes/languages/norwegian/edit_orders.php</destname>
+    </step>
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>norwegian/images/buttons/button_add_article.gif</filename>
+      <destname>admin/includes/languages/norwegian/images/buttons/button_add_article.gif</destname>
+    </step>	
+	<step>
+      <action>copy_file_if_destination_exists</action>
+      <filename>norwegian/images/buttons/button_new_order_email.gif</filename>
+      <destname>admin/includes/languages/norwegian/images/buttons/button_new_order_email.gif</destname>
+    </step>		
+    <step>
+      <action>open_file</action>
+      <filename>admin/includes/filenames.php</filename>
+    </step>
+    <step>
+      <action>add_to_file</action>
+      <code><![CDATA[
+// order editor
+  define('FILENAME_ORDERS_EDIT', 'edit_orders.php');
+  define('FILENAME_ORDERS_EDIT_ADD_PRODUCT', 'edit_orders_add_product.php');
+  define('FILENAME_ORDERS_EDIT_AJAX', 'edit_orders_ajax.php');
+   // end order editor
+]]></code>
+    </step>
+    <step>
+      <action>save_file</action>
+    </step>
+    <step>
+      <action>open_file</action>
+      <filename>admin/includes/functions/general.php</filename>
+    </step>
+    <step>
+      <action>add_to_file</action>
+      <code><![CDATA[
+  //////create a pull down for all payment installed payment methods for Order Editor configuration
+   
+  // Get list of all payment modules available
+  function tep_cfg_pull_down_payment_methods() {
+  global $language;
+  $enabled_payment = array();
+  $module_directory = DIR_FS_CATALOG_MODULES . 'payment/';
+  $file_extension = '.php';
+
+  if ($dir = @dir($module_directory)) {
+    while ($file = $dir->read()) {
+      if (!is_dir( $module_directory . $file)) {
+        if (substr($file, strrpos($file, '.')) == $file_extension) {
+          $directory_array[] = $file;
+        }
+      }
+    }
+    sort($directory_array);
+    $dir->close();
+  }
+
+  // For each available payment module, check if enabled
+  for ($i=0, $n=sizeof($directory_array); $i<$n; $i++) {
+    $file = $directory_array[$i];
+
+    include(DIR_FS_CATALOG_LANGUAGES . $language . '/modules/payment/' . $file);
+    include($module_directory . $file);
+
+    $class = substr($file, 0, strrpos($file, '.'));
+    if (tep_class_exists($class)) {
+      $module = new $class;
+      if ($module->check() > 0) {
+        // If module enabled create array of titles
+      	$enabled_payment[] = array('id' => $module->title, 'text' => $module->title);
+		
+      }
+   }
+ }
+ 				
+    $enabled_payment[] = array('id' => 'Other', 'text' => 'Other');	
+		
+		//draw the dropdown menu for payment methods and default to the order value
+	  return tep_draw_pull_down_menu('configuration_value', $enabled_payment, '', ''); 
+		}
+
+
+/////end payment method dropdown
+]]></code>
+    </step>
+    <step>
+      <action>save_file</action>
+    </step>
+    <step>
+      <action>open_file</action>
+      <filename>checkout_process.php</filename>
+    </step>	
+    <step>
+      <action>replace</action>
+      <pattern><![CDATA[/\'payment_method\' \=\> \$order\-\>info\[\'payment_method\'\]\,/]]></pattern>
+      <replacement><![CDATA[$0 
+                          'shipping_module' => $shipping['id'],]]></replacement>
+      <manual_from><![CDATA[
+                          'payment_method' => $order->info['payment_method'], 
+                          'cc_type' => $order->info['cc_type'], 
+]]></manual_from>
+      <manual_to><![CDATA[
+                          'payment_method' => $order->info['payment_method'], 
+                          'shipping_module' => $shipping['id'],
+                          'cc_type' => $order->info['cc_type'],
+]]></manual_to>
+    </step>	
+    <step>
+      <action>save_file</action>
+    </step>	
+    <step>
+      <action>open_file</action>
+      <filename>admin/orders.php</filename>
+    </step>	
+    <step>
+      <action>replace</action>
+      <pattern><![CDATA[/(pageHeading[^\r\n]+ echo \')(\<a href\=\"\' \. tep_href_link\(FILENAME_ORDERS\,)/]]></pattern>
+      <replacement><![CDATA[$1<a href="' . tep_href_link(FILENAME_ORDERS_EDIT, 'oID=' . $_GET['oID']) . '">' . tep_image_button('button_edit.gif', IMAGE_EDIT) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_INVOICE, 'oID=' . $_GET['oID']) . '" TARGET="_blank">' . tep_image_button('button_invoice.gif', IMAGE_ORDERS_INVOICE) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_PACKINGSLIP, 'oID=' . $_GET['oID']) . '" TARGET="_blank">' . tep_image_button('button_packingslip.gif', IMAGE_ORDERS_PACKINGSLIP) . '</a>$2]]></replacement>
+      <manual_from><![CDATA[
+<td class="pageHeading" align="right"><?php echo '<a href="' . tep_href_link(FILENAME_ORDERS, tep_get_all_get_params(array('action'))) . '">' . tep_image_button('button_back.gif', IMAGE_BACK) . '</a>'; ?></td>
+]]></manual_from>
+      <manual_to><![CDATA[
+<td class="pageHeading" align="right"><?php echo '<a href="' . tep_href_link(FILENAME_ORDERS_EDIT, 'oID=' . $_GET['oID']) . '">' . tep_image_button('button_edit.gif', IMAGE_EDIT) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_INVOICE, 'oID=' . $_GET['oID']) . '" TARGET="_blank">' . tep_image_button('button_invoice.gif', IMAGE_ORDERS_INVOICE) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_PACKINGSLIP, 'oID=' . $_GET['oID']) . '" TARGET="_blank">' . tep_image_button('button_packingslip.gif', IMAGE_ORDERS_PACKINGSLIP) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS, tep_get_all_get_params(array('action'))) . '">' . tep_image_button('button_back.gif', IMAGE_BACK) . '</a> '; ?></td>
+]]></manual_to>
+    </step>	
+    <step>
+      <action>replace</action>
+      <pattern><![CDATA[/(colspan\=\"2\"[^\r\n]+ echo \')(\<a href\=\"\' \. tep_href_link\(FILENAME_ORDERS_INVOICE\,)/]]></pattern>
+      <replacement><![CDATA[$1<a href="' . tep_href_link(FILENAME_ORDERS_EDIT, 'oID=' . $_GET['oID']) . '">' . tep_image_button('button_edit.gif', IMAGE_EDIT) . '</a> $2]]></replacement>
+      <manual_from><![CDATA[
+<td colspan="2" align="right"><?php echo '<a href="' . tep_href_link(FILENAME_ORDERS_INVOICE, 'oID=' . $HTTP_GET_VARS['oID']) . '" TARGET="_blank">' . tep_image_button('button_invoice.gif', IMAGE_ORDERS_INVOICE) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_PACKINGSLIP, 'oID=' . $HTTP_GET_VARS['oID']) . '" TARGET="_blank">' . tep_image_button('button_packingslip.gif', IMAGE_ORDERS_PACKINGSLIP) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS, tep_get_all_get_params(array('action'))) . '">' . tep_image_button('button_back.gif', IMAGE_BACK) . '</a>'; ?></td>
+]]></manual_from>
+      <manual_to><![CDATA[
+<td colspan="2" align="right"><?php echo '<a href="' . tep_href_link(FILENAME_ORDERS_EDIT, 'oID=' . $_GET['oID']) . '">' . tep_image_button('button_edit.gif', IMAGE_EDIT) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_INVOICE, 'oID=' . $_GET['oID']) . '" TARGET="_blank">' . tep_image_button('button_invoice.gif', IMAGE_ORDERS_INVOICE) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_PACKINGSLIP, 'oID=' . $_GET['oID']) . '" TARGET="_blank">' . tep_image_button('button_packingslip.gif', IMAGE_ORDERS_PACKINGSLIP) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS, tep_get_all_get_params(array('action'))) . '">' . tep_image_button('button_back.gif', IMAGE_BACK) . '</a> '; ?></td>
+]]></manual_to>
+    </step>
+    <step>
+      <action>replace</action>
+      <pattern><![CDATA[/\$contents\[\] \= [^\r\n]+IMAGE_ORDERS_PACKINGSLIP\) \. \'\<\/a\>/]]></pattern>
+      <replacement><![CDATA[$0<a href="' . tep_href_link(FILENAME_ORDERS_EDIT, 'oID=' . $oInfo->orders_id) . '">' . tep_image_button('button_edit.gif', IMAGE_EDIT) . '</a>]]></replacement>
+      <manual_from><![CDATA[
+        $contents[] = array('align' => 'center', 'text' => '<a href="' . tep_href_link(FILENAME_ORDERS, tep_get_all_get_params(array('oID', 'action')) . 'oID=' . $oInfo->orders_id . '&action=edit') . '">' . tep_image_button('button_edit.gif', IMAGE_EDIT) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS, tep_get_all_get_params(array('oID', 'action')) . 'oID=' . $oInfo->orders_id . '&action=delete') . '">' . tep_image_button('button_delete.gif', IMAGE_DELETE) . '</a>');
+        $contents[] = array('align' => 'center', 'text' => '<a href="' . tep_href_link(FILENAME_ORDERS_INVOICE, 'oID=' . $oInfo->orders_id) . '" TARGET="_blank">' . tep_image_button('button_invoice.gif', IMAGE_ORDERS_INVOICE) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_PACKINGSLIP, 'oID=' . $oInfo->orders_id) . '" TARGET="_blank">' . tep_image_button('button_packingslip.gif', IMAGE_ORDERS_PACKINGSLIP) . '</a>');
+]]></manual_from>
+      <manual_to><![CDATA[
+        $contents[] = array('align' => 'center', 'text' => '<a href="' . tep_href_link(FILENAME_ORDERS, tep_get_all_get_params(array('oID', 'action')) . 'oID=' . $oInfo->orders_id . '&action=edit') . '">' . tep_image_button('button_details.gif', IMAGE_DETAILS) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS, tep_get_all_get_params(array('oID', 'action')) . 'oID=' . $oInfo->orders_id . '&action=delete') . '">' . tep_image_button('button_delete.gif', IMAGE_DELETE) . '</a>');
+        $contents[] = array('align' => 'center', 'text' => '<a href="' . tep_href_link(FILENAME_ORDERS_INVOICE, 'oID=' . $oInfo->orders_id) . '" TARGET="_blank">' . tep_image_button('button_invoice.gif', IMAGE_ORDERS_INVOICE) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_PACKINGSLIP, 'oID=' . $oInfo->orders_id) . '" TARGET="_blank">' . tep_image_button('button_packingslip.gif', IMAGE_ORDERS_PACKINGSLIP) . '</a> <a href="' . tep_href_link(FILENAME_ORDERS_EDIT, 'oID=' . $oInfo->orders_id) . '">' . tep_image_button('button_edit.gif', IMAGE_EDIT) . '</a>');
+]]></manual_to>
+    </step>	
+    <step>
+      <action>save_file</action>
+    </step>	
+    <step>
+      <action>run_query</action>
+      <query>ALTER TABLE orders ADD shipping_module VARCHAR( 255 ) NULL</query>
+      <unquery>ALTER TABLE orders DROP shipping_module</unquery>
+    </step>		
+    <step>
+      <action>run_query</action>
+      <query>INSERT INTO configuration_group (configuration_group_title, configuration_group_description, sort_order, visible) SELECT 'Order Editor', 'Configuration options for Order Editor', sort_order, '1' FROM configuration_group ORDER BY sort_order DESC LIMIT 1</query>	  
+      <unquery>DELETE FROM configuration_group WHERE configuration_group_title = 'Order Editor'</unquery>
+    </step>
+    <step>
+      <action>run_query</action>
+      <query><![CDATA[INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) VALUES ('Display the Payment Method dropdown?', 'ORDER_EDITOR_PAYMENT_DROPDOWN', 'true', 'Based on this selection Order Editor will display the payment method as a dropdown menu (true) or as an input field (false).', LAST_INSERT_ID(), '1', now(), now(), NULL, 'tep_cfg_select_option(array(\'true\', \'false\'),'),('Use prices from Separate Pricing Per Customer?', 'ORDER_EDITOR_USE_SPPC', 'false', 'Leave this set to false unless SPPC is installed.', LAST_INSERT_ID(), '3', now(), now(), NULL, 'tep_cfg_select_option(array(\'true\', \'false\'),'),('Allow the use of AJAX to update order information?', 'ORDER_EDITOR_USE_AJAX', 'true', 'This must be set to false if using a browser on which JavaScript is disabled or not available.', LAST_INSERT_ID(), '4', now(), now(), NULL, 'tep_cfg_select_option(array(\'true\', \'false\'),'),('Select your credit card payment method', 'ORDER_EDITOR_CREDIT_CARD', 'Credit Card', 'Order Editor will display the credit card fields when this payment method is selected.', LAST_INSERT_ID(), '5', now(), now(), NULL, 'tep_cfg_pull_down_payment_methods(')]]></query>
+      <unquery>DELETE FROM configuration WHERE configuration_key in ('ORDER_EDITOR_PAYMENT_DROPDOWN','ORDER_EDITOR_USE_SPPC','ORDER_EDITOR_USE_AJAX','ORDER_EDITOR_CREDIT_CARD')</unquery>
+    </step>		
+  </steps>
+</installation>

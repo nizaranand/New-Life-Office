@@ -1,0 +1,113 @@
+#menu-container,#menu {
+	position: relative;
+	z-index: 102;
+}
+
+
+#menu {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: -20px;
+	margin-bottom: -10px;
+}
+
+#menu-container {
+	padding-bottom: 0px;
+	margin-bottom: -20px;
+}
+
+#menu ul ul ul {
+	border-top: 1px solid #ebebeb;
+	border-width: 0px;
+	top: 0px;
+}
+
+#menu ul li li {
+	display: block;
+	float: left;
+}
+
+
+#menu ul .sf-sub-indicator {
+	display: none;
+}
+
+
+#footer-projcets {
+	margin-left:0px;
+}
+
+
+#footer-projcets ul {
+	display: block;
+	width:210px;
+}
+
+#footer .four-columns {
+
+    margin-right: 20px;
+    width: 210px;
+}
+
+#footer #sidebar-projects img {
+
+    height: 80px;
+    width: 80px;
+}
+.wp-pagenavi{
+width:100%;
+padding:3px 0;
+}
+
+.sidebar #sidebar-projects img,  .sidebar #sidebar-projects li, .sidebar #sidebar-projects a {
+    width: 110px;
+    height: 110px;
+}
+	
+
+
+.showcase-item {
+	height: 67px;
+}
+
+#gallery {
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+
+.accordion-shadow{
+background-image:none;
+}
+
+#line-top{
+font-size:2px;
+}
+
+.drop-arrow{
+display:none;
+}
+
+.button{
+background-image:none;
+}
+
+.widget-contact-form #submit-form {
+	margin-top:10px;	
+}
+
+.post-date{
+margin-right:15px;
+}
+
+.sidebar-box ul li a{
+background-image:none;
+}
+
+.showcase-item{
+padding-bottom:5px;
+}
+
+.portfolio-sidebar{
+margin-top:0px;
+}
